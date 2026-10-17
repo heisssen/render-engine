@@ -3,6 +3,11 @@
 All dates are 2026. The history before v0.1.0 is reconstructed from the production notes and file dates of the
 first episode; it happened in one folder on one laptop, so "release" is a generous word for most of it.
 
+## [Unreleased]
+
+### Fixed
+- CI: the secret scan runs the gitleaks CLI over the full history (the action failed on the first push).
+
 ## [0.2.0] - 2026-10-17
 
 Provenance and security: the part that answers "where did this frame come from, and are we allowed to use it".
