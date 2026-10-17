@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: render-engine
+abstract: >-
+  render-engine is a config-driven documentary render engine built on Remotion, ElevenLabs, faster-whisper and
+  ffmpeg. It voices a script paragraph by paragraph, aligns sentences on the audio, and plans the edit from a written
+  editing bible with an automatic pace check, cutting archival footage and scan-verified quoted pages on sentence
+  boundaries. It mixes and dubs the soundtrack into the original timing slots and renders resumably in one-minute
+  parts with a power and battery guard.
+type: software
+authors:
+  - family-names: Oximets
+    given-names: Bohdan
+    alias: heisssen
+repository-code: "https://github.com/heisssen/render-engine"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-17"
+keywords:
+  - remotion
+  - documentary
+  - video-editing
+  - elevenlabs
+  - whisper
+  - ffmpeg
+  - history
+  - archival-footage

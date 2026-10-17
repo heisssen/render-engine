@@ -1,0 +1,3 @@
+title: render-engine
+description: A config-driven documentary render engine (Remotion + ElevenLabs + whisper + ffmpeg)
+theme: jekyll-theme-minimal
