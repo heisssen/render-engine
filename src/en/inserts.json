@@ -1,0 +1,761 @@
+{
+	"0": [
+		{
+			"clip": "berlin",
+			"from_s": 3,
+			"at": 0,
+			"len": 3.8,
+			"credit": "archival film · public domain"
+		}
+	],
+	"1": [
+		{
+			"clip": "people/wilhelm2_karl_station_1917",
+			"from_s": 1,
+			"at": 0,
+			"len": 3.5,
+			"credit": "Wilhelm II & Karl I, Venetia 1917 · Bundesarchiv · public domain"
+		}
+	],
+	"3": [
+		{
+			"clip": "column",
+			"from_s": 2,
+			"at": 0,
+			"len": 4,
+			"credit": "archival film · public domain"
+		}
+	],
+	"5": [
+		{
+			"clip": "more/de1915_reinforcements_train_lowicz",
+			"from_s": 0,
+			"at": 0,
+			"len": 5.2,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		}
+	],
+	"6": [
+		{
+			"clip": "more/de1914_ranks_attention",
+			"from_s": 0,
+			"at": 0,
+			"len": 5.5,
+			"credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain"
+		}
+	],
+	"7": [
+		{
+			"clip": "more/de1914_infantry_march_close",
+			"from_s": 0,
+			"at": 0,
+			"len": 4.4,
+			"credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain"
+		},
+		{
+			"clip": "more/de1914_train_arrives_station",
+			"from_s": 1,
+			"at": 13.0,
+			"len": 3.7,
+			"credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain"
+		}
+	],
+	"8": [
+		{
+			"clip": "en/german_cavalry",
+			"from_s": 3,
+			"at": 0,
+			"len": 4.1,
+			"credit": "archival film · public domain"
+		}
+	],
+	"10": [
+		{
+			"clip": "more/ah1912_franz_joseph_corpus_christi",
+			"from_s": 0,
+			"at": 8.04,
+			"len": 5.9,
+			"credit": "Vienna c.1912 · Austrian Film Museum · public domain"
+		}
+	],
+	"20": [
+		{
+			"clip": "en/march_column",
+			"from_s": 3,
+			"at": 0,
+			"len": 4.7,
+			"credit": "archival film · public domain"
+		}
+	],
+	"25": [
+		{
+			"clip": "more/de1915_reinforcements_platform_lowicz",
+			"from_s": 0,
+			"at": 4.94,
+			"len": 7.2,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		}
+	],
+	"26": [
+		{
+			"clip": "more/de1915_supply_wagon_dust_road",
+			"from_s": 0,
+			"at": 0,
+			"len": 4.8,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain"
+		}
+	],
+	"27": [
+		{
+			"clip": "trains",
+			"from_s": 1,
+			"at": 11.58,
+			"len": 2.0,
+			"credit": "archival film · public domain",
+			"burst": true
+		},
+		{
+			"clip": "more/de1914_train_arrives_station",
+			"from_s": 3,
+			"at": 13.58,
+			"len": 1.75,
+			"credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain",
+			"burst": true
+		},
+		{
+			"clip": "more/de1915_horses_yard_boxcars_lodz",
+			"from_s": 1,
+			"at": 15.33,
+			"len": 1.8,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+			"burst": true
+		}
+	],
+	"28": [
+		{
+			"clip": "en/french_cavalry",
+			"from_s": 2,
+			"at": 0,
+			"len": 4.0,
+			"credit": "archival film · public domain"
+		}
+	],
+	"30": [
+		{
+			"clip": "en/red_trousers",
+			"from_s": 2,
+			"at": 0,
+			"len": 9.3,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "more/de1915_riflemen_firing_from_trench",
+			"from_s": 0,
+			"at": 23.92,
+			"len": 7.7,
+			"credit": "Firing Line, 1915 · Library of Congress · public domain"
+		}
+	],
+	"31": [
+		{
+			"clip": "more/de1915_lille_demolition_dust",
+			"from_s": 0,
+			"at": 0,
+			"len": 7.0,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		},
+		{
+			"clip": "en/french_guns",
+			"from_s": 3,
+			"at": 11.32,
+			"len": 5.2,
+			"credit": "archival film · public domain"
+		}
+	],
+	"33": [
+		{
+			"clip": "more/uk1914_whitehall_crowd_asquith",
+			"from_s": 0,
+			"at": 0,
+			"len": 3.6,
+			"credit": "London 1914 · CINEMATEK Brussels · public domain"
+		}
+	],
+	"34": [
+		{
+			"clip": "en/ruins_1914",
+			"from_s": 3,
+			"at": 3.08,
+			"len": 5.3,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "more/uk1914_recruiting_tents",
+			"from_s": 0,
+			"at": 7.6,
+			"len": 3.8,
+			"credit": "London 1914 · CINEMATEK Brussels · public domain"
+		}
+	],
+	"36": [
+		{
+			"clip": "more/ru1915_erivan_regiment_marches_out",
+			"from_s": 0,
+			"at": 3.54,
+			"len": 4.5,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain"
+		}
+	],
+	"37": [
+		{
+			"clip": "more/ru1915_russian_pows_march_escort",
+			"from_s": 0,
+			"at": 7.08,
+			"len": 3.3,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain"
+		}
+	],
+	"38": [
+		{
+			"clip": "people/hindenburg_ludendorff_map_1917",
+			"from_s": 1,
+			"at": 0,
+			"len": 3.5,
+			"credit": "Hindenburg & Ludendorff, HQ 1917 · Bundesarchiv · public domain"
+		},
+		{
+			"clip": "more/ah1915_columns_march_przemysl_street",
+			"from_s": 0,
+			"at": 9.36,
+			"len": 5.2,
+			"credit": "Przemyśl 1915 · Austrian Film Museum · public domain"
+		}
+	],
+	"39": [
+		{
+			"photo": "photos/en/d_german_austrian_galicia_1914.jpg",
+			"move": "in",
+			"at": 11.72,
+			"len": 6.0,
+			"credit": "Alfred Grohs, Galicia 1914 · public domain"
+		}
+	],
+	"40": [
+		{
+			"clip": "people/enver_parade_1915",
+			"from_s": 1,
+			"at": 0,
+			"len": 3.7,
+			"credit": "Enver Pasha, Constantinople 1915 · Bundesarchiv · public domain"
+		}
+	],
+	"42": [
+		{
+			"clip": "en/ottoman_troops",
+			"from_s": 3,
+			"at": 8.0,
+			"len": 5.1,
+			"credit": "archival film · public domain"
+		}
+	],
+	"43": [
+		{
+			"clip": "en/kaiser_dardanelles",
+			"from_s": 1.5,
+			"at": 9.6,
+			"len": 5.0,
+			"credit": "archival film · public domain"
+		}
+	],
+	"45": [
+		{
+			"clip": "people/joffre_parade_alsace_1915",
+			"from_s": 1,
+			"at": 10.68,
+			"len": 5.1,
+			"credit": "Joffre, Alsace 1915 · DFF Deutsches Filminstitut · public domain"
+		}
+	],
+	"46": [
+		{
+			"clip": "more/ah1915_mortar_ready_to_fire",
+			"from_s": 0,
+			"at": 0,
+			"len": 5.6,
+			"credit": "Przemyśl 1915 · Austrian Film Museum · public domain"
+		},
+		{
+			"clip": "more/ru1915_fort_rampart_ammo_strewn",
+			"from_s": 0,
+			"at": 5.6,
+			"len": 3.1,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain"
+		},
+		{
+			"clip": "more/de1915_traffic_marschall_bridge_warsaw",
+			"from_s": 1,
+			"at": 13.3,
+			"len": 2.1,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+			"burst": true
+		},
+		{
+			"clip": "more/de1915_vilnius_cathedral",
+			"from_s": 0,
+			"at": 15.4,
+			"len": 2.1,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+			"burst": true
+		},
+		{
+			"clip": "more/pl1915_refugee_wagon_camp",
+			"from_s": 1,
+			"at": 17.5,
+			"len": 2.2,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+			"burst": true
+		}
+	],
+	"47": [
+		{
+			"clip": "more/ah1915_belgrade_kalemegdan_ruins",
+			"from_s": 0,
+			"at": 0,
+			"len": 4.6,
+			"credit": "Messter-Woche 1915 · Bundesarchiv · public domain"
+		},
+		{
+			"photo": "photos/en/g_balkanzug_1916_rol.jpg",
+			"move": "left",
+			"at": 4.64,
+			"len": 7.9,
+			"credit": "Balkanzug, 1916 · Agence Rol / BnF · public domain"
+		}
+	],
+	"48": [
+		{
+			"clip": "people/wilson_speech_1917",
+			"from_s": 0.4,
+			"at": 14.34,
+			"len": 5.6,
+			"credit": "Woodrow Wilson, 1917 · National Archives · public domain"
+		}
+	],
+	"49": [
+		{
+			"clip": "more/de1915_uboat_casts_off",
+			"from_s": 0,
+			"at": 4.0,
+			"len": 4.0,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		}
+	],
+	"50": [
+		{
+			"clip": "people/poincare_joffre_verdun_1916",
+			"from_s": 0,
+			"at": 0,
+			"len": 8.48,
+			"credit": "Poincaré & Joffre, Verdun 1916 · DFF Deutsches Filminstitut · public domain",
+			"rate": 0.98
+		}
+	],
+	"51": [
+		{
+			"clip": "more/uk1914_british_troops_cairo_sultan",
+			"from_s": 0,
+			"at": 11.5,
+			"len": 4.7,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		},
+		{
+			"clip": "en/british_guns",
+			"from_s": 0.5,
+			"at": 16.22,
+			"len": 9.0,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "more/au1915_anzac_soldiers_laughing",
+			"from_s": 0,
+			"at": 25.2,
+			"len": 7.2,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		}
+	],
+	"52": [
+		{
+			"clip": "s_blast",
+			"from_s": 3,
+			"at": 0,
+			"len": 4.6,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "tanks",
+			"from_s": 2,
+			"at": 11.24,
+			"len": 5.0,
+			"credit": "archival film · public domain"
+		}
+	],
+	"53": [
+		{
+			"clip": "more/ah1917_troops_march_through_crowd_czernowitz",
+			"from_s": 0,
+			"at": 0,
+			"len": 5.4,
+			"credit": "Liberation of Bukovina 1917 · Bundesarchiv · public domain"
+		},
+		{
+			"clip": "en/riga_1917",
+			"from_s": 4,
+			"at": 6.86,
+			"len": 4.3,
+			"credit": "archival film · public domain"
+		}
+	],
+	"55": [
+		{
+			"clip": "more/de1915_forage_wagons_front",
+			"from_s": 0,
+			"at": 7.26,
+			"len": 6.3,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		}
+	],
+	"56": [
+		{
+			"clip": "more/uk1914_crowd_outside_bank",
+			"from_s": 0,
+			"at": 0,
+			"len": 3.3,
+			"credit": "London 1914 · CINEMATEK Brussels · public domain"
+		},
+		{
+			"clip": "s_howitzer2",
+			"from_s": 3,
+			"at": 3.28,
+			"len": 7.3,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "en/wilson",
+			"from_s": 2,
+			"at": 18.64,
+			"len": 7.9,
+			"credit": "archival film · public domain"
+		}
+	],
+	"57": [
+		{
+			"clip": "petrograd",
+			"from_s": 3,
+			"at": 11.2,
+			"len": 5.5,
+			"credit": "archival film · public domain"
+		}
+	],
+	"58": [
+		{
+			"clip": "people/lenin_car_moscow_1918",
+			"from_s": 0.3,
+			"at": 0,
+			"len": 5.1,
+			"credit": "Lenin, Moscow May 1918 · Austrian Film Museum · public domain"
+		},
+		{
+			"clip": "more/brest1917_delegation_arrives_train",
+			"from_s": 0,
+			"at": 14.02,
+			"len": 3.5,
+			"credit": "archival film, 1917–18 · Bundesarchiv · public domain"
+		}
+	],
+	"59": [
+		{
+			"clip": "more/brest1917_armistice_signing_table",
+			"from_s": 1,
+			"at": 1.76,
+			"len": 2.3,
+			"credit": "Brest-Litovsk armistice 1917 · Bundesarchiv · public domain",
+			"burst": true
+		},
+		{
+			"clip": "more/de1917_reserves_march_boxcars_zlodzow",
+			"from_s": 1,
+			"at": 4.06,
+			"len": 2.2,
+			"credit": "Fighting for Tarnopol 1917 · Bundesarchiv · public domain",
+			"burst": true
+		},
+		{
+			"clip": "more/de1915_reinforcements_train_lowicz",
+			"from_s": 1,
+			"at": 6.26,
+			"len": 2.2,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+			"burst": true
+		},
+		{
+			"clip": "more/de1915_horses_loaded_wagon_lodz",
+			"from_s": 1,
+			"at": 8.46,
+			"len": 2.27,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+			"burst": true
+		},
+		{
+			"clip": "people/broll_remarque_infantry_advance_1918",
+			"from_s": 1,
+			"at": 10.74,
+			"len": 6.3,
+			"credit": "German infantry, Western Front 1918 · Bundesarchiv · public domain"
+		}
+	],
+	"60": [
+		{
+			"clip": "more/de1917_hindenburg_ludendorff_walk",
+			"from_s": 0,
+			"at": 0,
+			"len": 3.2,
+			"credit": "Unser Hindenburg · Bundesarchiv · public domain"
+		}
+	],
+	"61": [
+		{
+			"clip": "more/brest1918_delegates_leave_building",
+			"from_s": 0,
+			"at": 0,
+			"len": 6.2,
+			"credit": "archival film, 1917–18 · Bundesarchiv · public domain"
+		}
+	],
+	"63": [
+		{
+			"clip": "more/pl1916_legion_infantry_march_warsaw",
+			"from_s": 0,
+			"at": 0,
+			"len": 6.3,
+			"credit": "Warsaw, December 1916 · Bundesarchiv · public domain"
+		},
+		{
+			"clip": "more/de1917_kaiser_arrives_zlodzow",
+			"from_s": 0,
+			"at": 12.08,
+			"len": 4.2,
+			"credit": "Fighting for Tarnopol 1917 · Bundesarchiv · public domain"
+		}
+	],
+	"64": [
+		{
+			"clip": "people/foch_joffre_victory_parade_1919",
+			"from_s": 0.5,
+			"at": 5.52,
+			"len": 4.5,
+			"credit": "Joffre and Foch, Paris victory parade 1919 · DFF Deutsches Filminstitut · public domain"
+		},
+		{
+			"clip": "more/de_kaiser_staff_poplar_road",
+			"from_s": 0,
+			"at": 15.82,
+			"len": 5.9,
+			"credit": "Kaiser with the army · Filmoteca Española · public domain"
+		}
+	],
+	"65": [
+		{
+			"clip": "people/ludendorff_hq_1917",
+			"from_s": 0.5,
+			"at": 2.44,
+			"len": 4.5,
+			"credit": "Ludendorff, Bad Kreuznach 1917 · Bundesarchiv · public domain"
+		}
+	],
+	"67": [
+		{
+			"clip": "people/lenin_kremlin_1918",
+			"from_s": 1.5,
+			"at": 0,
+			"len": 6.6,
+			"credit": "Lenin, Kremlin Oct 1918 · Austrian Film Museum · public domain"
+		},
+		{
+			"clip": "en/trotsky_1918",
+			"from_s": 1,
+			"at": 19.68,
+			"len": 4.9,
+			"credit": "archival film · public domain"
+		}
+	],
+	"68": [
+		{
+			"clip": "more/de1915_ranks_present_arms_ludwig",
+			"from_s": 0,
+			"at": 4.8,
+			"len": 3.9,
+			"credit": "Messter-Woche 1915 · Austrian Film Museum · public domain"
+		}
+	],
+	"69": [
+		{
+			"clip": "people/broll_tolkien_communication_trench_somme_1916",
+			"from_s": 1,
+			"at": 5.54,
+			"len": 4.8,
+			"credit": "Somme 1916 (The Battle of the Somme) · IWM film via archive.org · public domain"
+		},
+		{
+			"clip": "s_soldiers",
+			"from_s": 3,
+			"at": 21.48,
+			"len": 5.5,
+			"credit": "archival film · public domain"
+		}
+	],
+	"70": [
+		{
+			"clip": "people/broll_remarque_road_column_1918",
+			"from_s": 1,
+			"at": 14.66,
+			"len": 4.3,
+			"credit": "German column, St Quentin 1918 · Bundesarchiv · public domain"
+		}
+	],
+	"71": [
+		{
+			"clip": "s_biggun",
+			"from_s": 2,
+			"at": 11.48,
+			"len": 7.8,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "people/broll_mccrae_flanders_ruins",
+			"from_s": 1,
+			"at": 19.34,
+			"len": 5.0,
+			"credit": "Flanders ruins, Belgian Army film · CINEMATEK Brussels · public domain"
+		}
+	],
+	"72": [
+		{
+			"clip": "g_prisoners",
+			"from_s": 6,
+			"at": 0,
+			"len": 3.5,
+			"credit": "archival film · public domain"
+		}
+	],
+	"73": [
+		{
+			"photo": "photos/en/j_paris_6feb1934_concorde2.jpg",
+			"move": "in",
+			"focus": [
+				0.22,
+				0.6
+			],
+			"at": 0,
+			"len": 9.1,
+			"credit": "Place de la Concorde, Paris 1934 · public domain"
+		},
+		{
+			"photo": "photos/en/j_paris_7feb1934_aftermath.jpg",
+			"move": "in",
+			"at": 25.86,
+			"len": 3.8,
+			"credit": "Paris, 7 February 1934 · public domain"
+		}
+	],
+	"74": [
+		{
+			"clip": "people/petain_loncin_1923",
+			"from_s": 0,
+			"at": 0,
+			"len": 4.3,
+			"credit": "Marshal Petain, Loncin 1923 · CINEMATEK Brussels · public domain"
+		},
+		{
+			"photo": "photos/en/i_de_gaulle_1915.jpg",
+			"move": "in",
+			"focus": [
+				0.5,
+				0.25
+			],
+			"at": 14.26,
+			"len": 5.5,
+			"credit": "Charles de Gaulle, 1915 · public domain"
+		}
+	],
+	"75": [
+		{
+			"clip": "en/staged_battle",
+			"from_s": 4,
+			"at": 0,
+			"len": 7.5,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "people/wilhelm2_karl_station_1917",
+			"from_s": 1,
+			"at": 17.28,
+			"len": 5.6,
+			"credit": "Wilhelm II & Karl I, Venetia 1917 · Bundesarchiv · public domain"
+		}
+	],
+	"76": [
+		{
+			"clip": "en/berlin_crowd",
+			"from_s": 3,
+			"at": 0,
+			"len": 3.0,
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "more/de1914_soldiers_through_crowd",
+			"from_s": 0,
+			"at": 13.0,
+			"len": 6.6,
+			"credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain"
+		},
+		{
+			"clip": "tanks",
+			"from_s": 5,
+			"at": 19.62,
+			"len": 5.4,
+			"credit": "archival film · public domain"
+		}
+	],
+	"77": [
+		{
+			"clip": "more/brest1918_hoffmann_kuhlmann_czernin_group",
+			"from_s": 0,
+			"at": 0,
+			"len": 3.8,
+			"credit": "Brest-Litovsk talks 1918 · Bundesarchiv · public domain"
+		}
+	],
+	"78": [
+		{
+			"photo": "photos/en/a_moltke_1914_rol.jpg",
+			"move": "in",
+			"focus": [
+				0.5,
+				0.3
+			],
+			"at": 3.6,
+			"len": 6.9,
+			"credit": "Agence Rol / BnF · public domain"
+		}
+	],
+	"80": [
+		{
+			"clip": "en/brest_talks",
+			"from_s": 0.5,
+			"at": 0,
+			"len": 7.0,
+			"credit": "archival film · public domain"
+		}
+	],
+	"_doc": "Archival inserts cut into beats (key = beat index in STORY). clip: id under public/clips (no .mp4), from_s: seconds into the clip, at: seconds from the beat start (or atf: fraction of the beat), len: seconds (the cut out snaps to the music), credit: source line. photo: path under public/ instead of clip. Resolved by en/timings.mjs. Pass 5 (2026-10-17): each clip at most twice, never twice within 3 minutes; eastern material from public/clips/more."
+}

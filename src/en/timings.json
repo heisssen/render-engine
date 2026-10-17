@@ -1,0 +1,2673 @@
+{
+ "fps": 30,
+ "total": 44656,
+ "beats": [
+  {
+   "i": 0,
+   "from": 288,
+   "frames": 237,
+   "section": "COLD OPEN"
+  },
+  {
+   "i": 1,
+   "from": 525,
+   "frames": 315,
+   "section": "COLD OPEN"
+  },
+  {
+   "i": 2,
+   "from": 840,
+   "frames": 63,
+   "section": "COLD OPEN"
+  },
+  {
+   "i": 3,
+   "from": 903,
+   "frames": 459,
+   "section": "COLD OPEN"
+  },
+  {
+   "i": 4,
+   "from": 1362,
+   "frames": 445,
+   "section": "COLD OPEN"
+  },
+  {
+   "i": 5,
+   "from": 1807,
+   "frames": 506,
+   "section": "COLD OPEN"
+  },
+  {
+   "i": 6,
+   "from": 2514,
+   "frames": 393,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 7,
+   "from": 2907,
+   "frames": 560,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 8,
+   "from": 3467,
+   "frames": 679,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 9,
+   "from": 4146,
+   "frames": 477,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 10,
+   "from": 4623,
+   "frames": 566,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 11,
+   "from": 5189,
+   "frames": 804,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 12,
+   "from": 5993,
+   "frames": 216,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 13,
+   "from": 6209,
+   "frames": 367,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 14,
+   "from": 6576,
+   "frames": 624,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 15,
+   "from": 7200,
+   "frames": 102,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 16,
+   "from": 7302,
+   "frames": 290,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 17,
+   "from": 7592,
+   "frames": 297,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 18,
+   "from": 7889,
+   "frames": 225,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 19,
+   "from": 8114,
+   "frames": 91,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 20,
+   "from": 8205,
+   "frames": 645,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 21,
+   "from": 8850,
+   "frames": 663,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 22,
+   "from": 9513,
+   "frames": 200,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 23,
+   "from": 9713,
+   "frames": 246,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 24,
+   "from": 9959,
+   "frames": 191,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 25,
+   "from": 10150,
+   "frames": 549,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 26,
+   "from": 10699,
+   "frames": 849,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 27,
+   "from": 11548,
+   "frames": 574,
+   "section": "ACT I · THE TRACKS"
+  },
+  {
+   "i": 28,
+   "from": 12122,
+   "frames": 389,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 29,
+   "from": 12511,
+   "frames": 629,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 30,
+   "from": 13140,
+   "frames": 1065,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 31,
+   "from": 14205,
+   "frames": 652,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 32,
+   "from": 14857,
+   "frames": 182,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 33,
+   "from": 15039,
+   "frames": 452,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 34,
+   "from": 15491,
+   "frames": 667,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 35,
+   "from": 16158,
+   "frames": 457,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 36,
+   "from": 16615,
+   "frames": 353,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 37,
+   "from": 16968,
+   "frames": 488,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 38,
+   "from": 17456,
+   "frames": 656,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 39,
+   "from": 18112,
+   "frames": 757,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 40,
+   "from": 18869,
+   "frames": 452,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 41,
+   "from": 19321,
+   "frames": 383,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 42,
+   "from": 19704,
+   "frames": 618,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 43,
+   "from": 20322,
+   "frames": 593,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 44,
+   "from": 20915,
+   "frames": 542,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 45,
+   "from": 21457,
+   "frames": 712,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 46,
+   "from": 22169,
+   "frames": 650,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 47,
+   "from": 22819,
+   "frames": 577,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 48,
+   "from": 23396,
+   "frames": 690,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 49,
+   "from": 24086,
+   "frames": 541,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 50,
+   "from": 24627,
+   "frames": 497,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 51,
+   "from": 25124,
+   "frames": 1040,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 52,
+   "from": 26164,
+   "frames": 802,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 53,
+   "from": 26966,
+   "frames": 488,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 54,
+   "from": 27454,
+   "frames": 205,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 55,
+   "from": 27659,
+   "frames": 519,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 56,
+   "from": 28178,
+   "frames": 910,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 57,
+   "from": 29088,
+   "frames": 560,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 58,
+   "from": 29648,
+   "frames": 586,
+   "section": "ACT II · THE OTHER TRACK"
+  },
+  {
+   "i": 59,
+   "from": 30234,
+   "frames": 571,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 60,
+   "from": 30805,
+   "frames": 425,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 61,
+   "from": 31230,
+   "frames": 652,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 62,
+   "from": 31882,
+   "frames": 348,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 63,
+   "from": 32230,
+   "frames": 701,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 64,
+   "from": 32931,
+   "frames": 712,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 65,
+   "from": 33643,
+   "frames": 800,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 66,
+   "from": 34443,
+   "frames": 257,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 67,
+   "from": 34700,
+   "frames": 798,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 68,
+   "from": 35498,
+   "frames": 736,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 69,
+   "from": 36234,
+   "frames": 872,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 70,
+   "from": 37106,
+   "frames": 629,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 71,
+   "from": 37735,
+   "frames": 829,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 72,
+   "from": 38564,
+   "frames": 546,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 73,
+   "from": 39110,
+   "frames": 950,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 74,
+   "from": 40060,
+   "frames": 654,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 75,
+   "from": 40714,
+   "frames": 746,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 76,
+   "from": 41460,
+   "frames": 959,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 77,
+   "from": 42419,
+   "frames": 403,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 78,
+   "from": 42822,
+   "frames": 376,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 79,
+   "from": 43198,
+   "frames": 234,
+   "section": "ACT III · THE TRACK TAKEN"
+  },
+  {
+   "i": 80,
+   "from": 43432,
+   "frames": 504,
+   "section": "ACT III · THE TRACK TAKEN"
+  }
+ ],
+ "sting": {
+  "from": 2313,
+  "frames": 195
+ },
+ "acts": [
+  {
+   "section": "ACT I · THE TRACKS",
+   "from": 2514
+  },
+  {
+   "section": "ACT II · THE OTHER TRACK",
+   "from": 12122
+  },
+  {
+   "section": "ACT III · THE TRACK TAKEN",
+   "from": 30234
+  }
+ ],
+ "end": {
+  "from": 43936,
+  "frames": 600
+ },
+ "seal": {
+  "from": 44536,
+  "frames": 120
+ },
+ "clipFrames": {
+  "artillery": 420,
+  "berlin": 420,
+  "column": 240,
+  "g_bikes": 360,
+  "g_blast": 360,
+  "g_carriage": 360,
+  "g_field": 360,
+  "g_mules": 360,
+  "g_officers": 360,
+  "g_plane": 360,
+  "g_prisoners": 360,
+  "g_rifles": 210,
+  "g_ruins": 360,
+  "g_smoke": 180,
+  "g_tankstreet": 360,
+  "g_trench": 360,
+  "howitzer": 300,
+  "k_neva": 360,
+  "k_people": 360,
+  "k_workers": 360,
+  "petrograd": 360,
+  "shells": 420,
+  "street": 360,
+  "s_biggun": 360,
+  "s_blast": 360,
+  "s_crowd": 360,
+  "s_depot": 360,
+  "s_horses": 360,
+  "s_howitzer2": 360,
+  "s_ruins": 360,
+  "s_soldiers": 360,
+  "s_street": 360,
+  "s_trench": 210,
+  "s_wounded": 360,
+  "tanks": 390,
+  "trains": 300,
+  "wagons": 420,
+  "en/aef_france": 390,
+  "en/austrian_landwehr": 405,
+  "en/berlin_crowd": 435,
+  "en/brest_fraternisation": 390,
+  "en/brest_talks": 390,
+  "en/british_guns": 291,
+  "en/british_volunteers": 396,
+  "en/chasseurs_alpins": 420,
+  "en/constantinople_city": 396,
+  "en/french_army_review": 390,
+  "en/french_cavalry": 305,
+  "en/french_guns": 330,
+  "en/george_v_1913": 231,
+  "en/german_cavalry": 300,
+  "en/german_pontoon": 435,
+  "en/golden_horn": 375,
+  "en/hindenburg_staff": 390,
+  "en/joffre": 417,
+  "en/kaiser_dardanelles": 222,
+  "en/kaiser_portrait": 390,
+  "en/kaiser_troops": 387,
+  "en/london_crowds": 336,
+  "en/lusitania_departs": 390,
+  "en/lusitania_pier": 285,
+  "en/mackensen": 393,
+  "en/march_column": 371,
+  "en/nicholas_parade": 390,
+  "en/ottoman_palestine": 288,
+  "en/ottoman_troops": 390,
+  "en/petrograd_crowds": 396,
+  "en/red_trousers": 366,
+  "en/riga_1917": 390,
+  "en/ruins_1914": 407,
+  "en/ruins_east_prussia": 405,
+  "en/signal_troops": 390,
+  "en/staged_battle": 390,
+  "en/trotsky_1918": 414,
+  "en/us_recruits": 399,
+  "en/wall_street": 273,
+  "en/warsaw_1916": 267,
+  "en/wilson": 402,
+  "people/broll_mccrae_dressing_station_1916": 210,
+  "people/broll_mccrae_flanders_ruins": 240,
+  "people/broll_remarque_infantry_advance_1918": 240,
+  "people/broll_remarque_road_column_1918": 210,
+  "people/broll_tolkien_communication_trench_somme_1916": 240,
+  "people/clemenceau_doorway_flanders_1917": 210,
+  "people/clemenceau_front_flanders_1917": 180,
+  "people/enver_parade_1915": 270,
+  "people/ferdinand_karl_sofia_1918": 150,
+  "people/foch_joffre_victory_parade_1919": 195,
+  "people/franzjoseph_vienna_1910": 159,
+  "people/hindenburg_car_1917": 240,
+  "people/hindenburg_ludendorff_map_1917": 210,
+  "people/joffre_officers_alsace_1915": 240,
+  "people/joffre_parade_alsace_1915": 240,
+  "people/karl1_venetia_1917": 135,
+  "people/lenin_car_moscow_1918": 240,
+  "people/lenin_kremlin_1918": 270,
+  "people/ludendorff_hq_1917": 210,
+  "people/petain_loncin_1923": 159,
+  "people/poincare_joffre_verdun_1916": 255,
+  "people/poincare_tribune_paris_1917": 240,
+  "people/wilhelm2_karl_station_1917": 210,
+  "people/wilhelm2_review_duenamuende_1917": 270,
+  "people/wilson_airmail_1918": 240,
+  "people/wilson_speech_1917": 210,
+  "more/ah1910_franz_joseph_carriage_crowd": 210,
+  "more/ah1910_franz_joseph_inspects_stpoelten": 240,
+  "more/ah1912_franz_ferdinand_karl_wartholz": 210,
+  "more/ah1912_franz_joseph_corpus_christi": 240,
+  "more/ah1914_dense_crowd_close_eger": 240,
+  "more/ah1914_eger_crowd_ambulances": 240,
+  "more/ah1914_franz_joseph_rides_to_hunt": 180,
+  "more/ah1914_huge_crowd_statue_square": 240,
+  "more/ah1914_kaiservilla_ischl": 240,
+  "more/ah1914_prisoners_massed_eger": 240,
+  "more/ah1914_prisoners_mixed_uniforms_line": 240,
+  "more/ah1914_soldiers_greatcoats_cross_square": 240,
+  "more/ah1914_station_crowd_trains_eger": 240,
+  "more/ah1915_archdukes_salute_sanok": 240,
+  "more/ah1915_archduke_greets_falkenhayn": 240,
+  "more/ah1915_belgrade_blown_rail_bridge": 240,
+  "more/ah1915_belgrade_kalemegdan_ruins": 240,
+  "more/ah1915_cavalry_enters_przemysl": 240,
+  "more/ah1915_columns_march_przemysl_street": 240,
+  "more/ah1915_crew_heaves_mortar_przemysl": 240,
+  "more/ah1915_generals_walk_through_fort": 240,
+  "more/ah1915_mortar_ready_to_fire": 240,
+  "more/ah1915_pontoon_bridge_danube_belgrade": 240,
+  "more/ah1915_pontoon_crossing_san": 240,
+  "more/ah1915_przemysl_fort_casemates_wrecked": 240,
+  "more/ah1915_przemysl_turret_close": 240,
+  "more/ah1915_przemysl_turret_smashed": 240,
+  "more/ah1915_refugees_return_przemysl": 240,
+  "more/ah1915_soldiers_clear_fort_przemysl": 240,
+  "more/ah1915_tractor_tows_heavy_gun": 240,
+  "more/ah1915_troops_fill_przemysl_square": 240,
+  "more/ah1917_archduke_greets_crowd_czernowitz": 210,
+  "more/ah1917_bivouac_tents_pruth": 180,
+  "more/ah1917_blown_pruth_bridges": 240,
+  "more/ah1917_bohm_ermolli_observation_post": 240,
+  "more/ah1917_czernowitz_ruined_street": 240,
+  "more/ah1917_czernowitz_station_burning": 210,
+  "more/ah1917_horses_watered_pruth": 240,
+  "more/ah1917_infantry_column_cheered_czernowitz": 240,
+  "more/ah1917_smoking_rubble_czernowitz": 240,
+  "more/ah1917_staff_map_table_pruth": 240,
+  "more/ah1917_troops_march_through_crowd_czernowitz": 240,
+  "more/au1915_anzac_camp_pyramids": 210,
+  "more/au1915_anzac_soldiers_laughing": 240,
+  "more/brest1917_armistice_signing_table": 240,
+  "more/brest1917_cars_station_square": 240,
+  "more/brest1917_delegates_walk_park": 240,
+  "more/brest1917_delegates_wooden_house": 240,
+  "more/brest1917_delegation_arrives_train": 240,
+  "more/brest1917_joffe_bitsenko_platform": 240,
+  "more/brest1918_delegates_enter_session": 240,
+  "more/brest1918_delegates_leave_building": 240,
+  "more/brest1918_hoffmann_kuhlmann_czernin_group": 240,
+  "more/brest1918_negotiation_building": 240,
+  "more/brest1918_officers_furcoats_group": 240,
+  "more/brest1918_russians_lined_at_wire": 240,
+  "more/brest1918_russians_meet_germans_trench": 240,
+  "more/brest1918_russian_delegates_door": 210,
+  "more/brest1918_teleprinter_petersburg_line": 240,
+  "more/brest1918_trotsky_delegation_cars": 240,
+  "more/de1914_column_leaves_station": 270,
+  "more/de1914_infantry_march_close": 240,
+  "more/de1914_ranks_attention": 210,
+  "more/de1914_soldiers_packs_platform": 240,
+  "more/de1914_soldiers_through_crowd": 240,
+  "more/de1914_train_arrives_station": 270,
+  "more/de1915_bavarians_parade_przemysl": 240,
+  "more/de1915_cavalry_column_berlin_street": 240,
+  "more/de1915_dugout_logs_snow": 240,
+  "more/de1915_forage_wagons_front": 240,
+  "more/de1915_hindenburg_portrait_close": 180,
+  "more/de1915_horses_loaded_wagon_lodz": 240,
+  "more/de1915_horses_yard_boxcars_lodz": 240,
+  "more/de1915_horse_auction_berlin": 225,
+  "more/de1915_infantry_column_dusty_road": 240,
+  "more/de1915_lille_demolition_dust": 240,
+  "more/de1915_lineman_climbs_pole": 240,
+  "more/de1915_neidenburg_ruins": 240,
+  "more/de1915_officers_marschall_bridge": 240,
+  "more/de1915_patrol_crawls_to_wire": 240,
+  "more/de1915_polish_women_serve_tea": 240,
+  "more/de1915_ranks_present_arms_ludwig": 225,
+  "more/de1915_reinforcements_platform_lowicz": 240,
+  "more/de1915_reinforcements_train_lowicz": 240,
+  "more/de1915_riflemen_firing_from_trench": 240,
+  "more/de1915_soldiers_church_square": 240,
+  "more/de1915_soldiers_threshing_hay": 240,
+  "more/de1915_soldier_climbs_ruins": 240,
+  "more/de1915_supply_wagon_dust_road": 240,
+  "more/de1915_traffic_marschall_bridge_warsaw": 240,
+  "more/de1915_troops_brandenburg_gate": 240,
+  "more/de1915_troops_market_bolimow": 240,
+  "more/de1915_troops_unter_den_linden_crowd": 240,
+  "more/de1915_uboat_casts_off": 240,
+  "more/de1915_vilnius_cathedral": 210,
+  "more/de1915_wagons_blown_vistula_bridge": 240,
+  "more/de1917_column_advance_zbruch": 240,
+  "more/de1917_heavy_artillery_tarnopol_street": 195,
+  "more/de1917_hindenburg_among_crowd": 240,
+  "more/de1917_hindenburg_at_desk_hq": 240,
+  "more/de1917_hindenburg_gets_in_car": 240,
+  "more/de1917_hindenburg_ludendorff_close": 240,
+  "more/de1917_hindenburg_ludendorff_walk": 210,
+  "more/de1917_hindenburg_riverside_walk": 240,
+  "more/de1917_hindenburg_talks_adjutant": 240,
+  "more/de1917_kaiser_arrives_zlodzow": 210,
+  "more/de1917_pack_horses_column": 240,
+  "more/de1917_prince_leopold_staff_pointing": 240,
+  "more/de1917_reserves_march_boxcars_zlodzow": 240,
+  "more/de1917_staff_officers_walk_to_hq": 210,
+  "more/de_decorations_officers_dunes": 240,
+  "more/de_infantry_marchpast_kaiser": 240,
+  "more/de_kaiser_inspects_ranks_field": 240,
+  "more/de_kaiser_leaves_train_rupprecht": 234,
+  "more/de_kaiser_staff_poplar_road": 240,
+  "more/de_soldiers_rubble_stquentin": 240,
+  "more/ep1915_ortelsburg_ruined_main_street": 240,
+  "more/ep1915_supply_wagons_ruined_pillkallen": 240,
+  "more/fr_stquentin_cathedral_shellfire": 240,
+  "more/ot1917_ottoman_division_galicia": 240,
+  "more/ot1917_ottoman_officers_review_galicia": 240,
+  "more/pl1915_refugee_carts_village_road": 240,
+  "more/pl1915_refugee_cart_family": 240,
+  "more/pl1915_refugee_families_close": 180,
+  "more/pl1915_refugee_wagon_camp": 240,
+  "more/pl1915_refugee_women_cooking": 240,
+  "more/pl1916_cavalry_crowd_square_warsaw": 240,
+  "more/pl1916_crowds_triumphal_arch_warsaw": 240,
+  "more/pl1916_legion_infantry_march_warsaw": 240,
+  "more/pl1916_legion_marchpast_governor": 240,
+  "more/pl1916_legion_officers_ride_warsaw": 240,
+  "more/ru1915_abandoned_russian_gun_fort": 240,
+  "more/ru1915_captured_russian_guns": 240,
+  "more/ru1915_derailed_russian_train": 240,
+  "more/ru1915_erivan_regiment_crowd_band": 240,
+  "more/ru1915_erivan_regiment_marches_out": 240,
+  "more/ru1915_fort_rampart_ammo_strewn": 240,
+  "more/ru1915_pows_clear_citadel_vistula": 240,
+  "more/ru1915_pows_clear_rubble_ortelsburg": 240,
+  "more/ru1915_pow_camp_crowd": 240,
+  "more/ru1915_pow_camp_resting": 240,
+  "more/ru1915_russian_pows_column_road": 240,
+  "more/ru1915_russian_pows_march_escort": 240,
+  "more/ru1915_russian_pows_soldau": 240,
+  "more/ru1915_russian_pow_column_rain": 240,
+  "more/ru1915_tiflis_troops_before_crowd": 240,
+  "more/ru1915_tiflis_troops_march_square": 240,
+  "more/ru1917_pows_eating_tarnopol": 210,
+  "more/ru1917_pows_led_back_from_front": 240,
+  "more/ru1917_pows_long_column_village": 240,
+  "more/ru1917_pow_faces_close": 240,
+  "more/ru1917_pow_mass_tarnopol": 240,
+  "more/ru1917_wrecked_russian_armoured_car": 180,
+  "more/staged1916_german_cavalry_rides_in": 240,
+  "more/staged1916_mourners_around_bier": 240,
+  "more/staged1916_villagers_crowd_war_bonds": 240,
+  "more/staged1916_villagers_flee_cossacks": 246,
+  "more/staged1916_villagers_panic_street": 180,
+  "more/ua1918_balaklava_harbour": 210,
+  "more/ua1918_carriage_rock_gate_baidar": 240,
+  "more/ua1918_tatar_villagers_musicians": 240,
+  "more/uk1914_british_troops_cairo_sultan": 240,
+  "more/uk1914_crowd_outside_bank": 180,
+  "more/uk1914_guards_drums_trooping": 240,
+  "more/uk1914_guards_march_past": 240,
+  "more/uk1914_household_cavalry_ride": 240,
+  "more/uk1914_massed_bands_horse_guards": 240,
+  "more/uk1914_recruiting_tents": 180,
+  "more/uk1914_trafalgar_rally_rain": 162,
+  "more/uk1914_whitehall_crowd_asquith": 180
+ },
+ "inserts": [
+  {
+   "clip": "berlin",
+   "from_s": 3,
+   "at": 0,
+   "len": 3.8,
+   "credit": "archival film · public domain",
+   "beat": 0,
+   "from": 288,
+   "frames": 102,
+   "onKind": "big",
+   "look": "full"
+  },
+  {
+   "clip": "people/wilhelm2_karl_station_1917",
+   "from_s": 1,
+   "at": 0,
+   "len": 3.5,
+   "credit": "Wilhelm II & Karl I, Venetia 1917 · Bundesarchiv · public domain",
+   "beat": 1,
+   "from": 525,
+   "frames": 142,
+   "onKind": "photo",
+   "look": "full",
+   "label": "Wilhelm II",
+   "labelSub": "1917"
+  },
+  {
+   "clip": "column",
+   "from_s": 2,
+   "at": 0,
+   "len": 4,
+   "credit": "archival film · public domain",
+   "beat": 3,
+   "from": 903,
+   "frames": 122,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "page": "moltke-half-hour",
+   "beat": 4,
+   "from": 1492,
+   "frames": 223,
+   "onKind": "doc",
+   "look": "page"
+  },
+  {
+   "clip": "more/de1915_reinforcements_train_lowicz",
+   "from_s": 0,
+   "at": 0,
+   "len": 5.2,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 5,
+   "from": 1807,
+   "frames": 155,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1914_ranks_attention",
+   "from_s": 0,
+   "at": 0,
+   "len": 5.5,
+   "credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain",
+   "beat": 6,
+   "from": 2514,
+   "frames": 166,
+   "onKind": "versus",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1914_infantry_march_close",
+   "from_s": 0,
+   "at": 0,
+   "len": 4.4,
+   "credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain",
+   "beat": 7,
+   "from": 2907,
+   "frames": 133,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1914_train_arrives_station",
+   "from_s": 1,
+   "at": 13,
+   "len": 3.7,
+   "credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain",
+   "beat": 7,
+   "from": 3297,
+   "frames": 110,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "en/german_cavalry",
+   "from_s": 3,
+   "at": 0,
+   "len": 4.1,
+   "credit": "archival film · public domain",
+   "beat": 8,
+   "from": 3467,
+   "frames": 123,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "page": "reichsarchiv-ostaufmarsch-1913",
+   "beat": 9,
+   "from": 4412,
+   "frames": 211,
+   "onKind": "doc",
+   "look": "page"
+  },
+  {
+   "clip": "more/ah1912_franz_joseph_corpus_christi",
+   "from_s": 0,
+   "at": 8.04,
+   "len": 5.9,
+   "credit": "Vienna c.1912 · Austrian Film Museum · public domain",
+   "beat": 10,
+   "from": 4864,
+   "frames": 175,
+   "onKind": "big",
+   "look": "full"
+  },
+  {
+   "page": "nicky-hague",
+   "beat": 11,
+   "from": 5737,
+   "frames": 256,
+   "onKind": "photo",
+   "look": "page"
+  },
+  {
+   "page": "willy-unmistakable",
+   "beat": 12,
+   "from": 5993,
+   "frames": 216,
+   "onKind": "telegram",
+   "look": "page"
+  },
+  {
+   "page": "mobilmachung-extra-1914",
+   "beat": 13,
+   "from": 6209,
+   "frames": 133,
+   "onKind": "photo",
+   "look": "page"
+  },
+  {
+   "page": "lichnowsky-neutral",
+   "beat": 14,
+   "from": 6637,
+   "frames": 202,
+   "onKind": "telegram",
+   "look": "page"
+  },
+  {
+   "page": "moltke-joyfully-excited",
+   "beat": 14,
+   "from": 7010,
+   "frames": 190,
+   "onKind": "telegram",
+   "look": "page"
+  },
+  {
+   "page": "kaiser-whole-army-east",
+   "beat": 15,
+   "from": 7200,
+   "frames": 102,
+   "onKind": "quote",
+   "look": "page"
+  },
+  {
+   "page": "moltke-cannot-improvise",
+   "beat": 16,
+   "from": 7352,
+   "frames": 240,
+   "onKind": "map",
+   "look": "page"
+  },
+  {
+   "page": "moltke-wild-heap",
+   "beat": 17,
+   "from": 7592,
+   "frames": 297,
+   "onKind": "quote",
+   "look": "page"
+  },
+  {
+   "page": "kaiser-your-uncle",
+   "beat": 19,
+   "from": 8114,
+   "frames": 91,
+   "onKind": "quote",
+   "look": "page"
+  },
+  {
+   "clip": "en/march_column",
+   "from_s": 3,
+   "at": 0,
+   "len": 4.7,
+   "credit": "archival film · public domain",
+   "beat": 20,
+   "from": 8205,
+   "frames": 140,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "page": "moltke-tears",
+   "beat": 20,
+   "from": 8581,
+   "frames": 150,
+   "onKind": "map",
+   "look": "page"
+  },
+  {
+   "page": "moltke-refuses-to-sign",
+   "beat": 20,
+   "from": 8731,
+   "frames": 119,
+   "onKind": "map",
+   "look": "page"
+  },
+  {
+   "page": "ulflingen-station",
+   "beat": 21,
+   "from": 9108,
+   "frames": 129,
+   "onKind": "photo",
+   "look": "page"
+  },
+  {
+   "page": "george-misunderstanding",
+   "beat": 23,
+   "from": 9713,
+   "frames": 246,
+   "onKind": "telegram",
+   "look": "page"
+  },
+  {
+   "page": "moltke-now-you-can",
+   "beat": 24,
+   "from": 9959,
+   "frames": 191,
+   "onKind": "photo",
+   "look": "page"
+  },
+  {
+   "clip": "more/de1915_reinforcements_platform_lowicz",
+   "from_s": 0,
+   "at": 4.94,
+   "len": 7.2,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 25,
+   "from": 10298,
+   "frames": 224,
+   "onKind": "doc",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1915_supply_wagon_dust_road",
+   "from_s": 0,
+   "at": 0,
+   "len": 4.8,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "beat": 26,
+   "from": 10699,
+   "frames": 143,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "trains",
+   "from_s": 1,
+   "at": 11.58,
+   "len": 2,
+   "credit": "archival film · public domain",
+   "burst": true,
+   "beat": 27,
+   "from": 11895,
+   "frames": 60,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1914_train_arrives_station",
+   "from_s": 3,
+   "at": 13.58,
+   "len": 1.75,
+   "credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain",
+   "burst": true,
+   "beat": 27,
+   "from": 11955,
+   "frames": 53,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1915_horses_yard_boxcars_lodz",
+   "from_s": 1,
+   "at": 15.33,
+   "len": 1.8,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "burst": true,
+   "beat": 27,
+   "from": 12008,
+   "frames": 54,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "en/french_cavalry",
+   "from_s": 2,
+   "at": 0,
+   "len": 4,
+   "credit": "archival film · public domain",
+   "beat": 28,
+   "from": 12122,
+   "frames": 121,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "en/red_trousers",
+   "from_s": 2,
+   "at": 0,
+   "len": 9.3,
+   "credit": "archival film · public domain",
+   "beat": 30,
+   "from": 13140,
+   "frames": 280,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1915_riflemen_firing_from_trench",
+   "from_s": 0,
+   "at": 23.92,
+   "len": 7.7,
+   "credit": "Firing Line, 1915 · Library of Congress · public domain",
+   "beat": 30,
+   "from": 13858,
+   "frames": 231,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1915_lille_demolition_dust",
+   "from_s": 0,
+   "at": 0,
+   "len": 7,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 31,
+   "from": 14205,
+   "frames": 226,
+   "onKind": "stats",
+   "look": "full"
+  },
+  {
+   "clip": "en/french_guns",
+   "from_s": 3,
+   "at": 11.32,
+   "len": 5.2,
+   "credit": "archival film · public domain",
+   "beat": 31,
+   "from": 14545,
+   "frames": 154,
+   "onKind": "stats",
+   "look": "full"
+  },
+  {
+   "clip": "more/uk1914_whitehall_crowd_asquith",
+   "from_s": 0,
+   "at": 0,
+   "len": 3.6,
+   "credit": "London 1914 · CINEMATEK Brussels · public domain",
+   "beat": 33,
+   "from": 15039,
+   "frames": 109,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "en/ruins_1914",
+   "from_s": 3,
+   "at": 3.08,
+   "len": 5.3,
+   "credit": "archival film · public domain",
+   "beat": 34,
+   "from": 15583,
+   "frames": 168,
+   "onKind": "headline",
+   "look": "full"
+  },
+  {
+   "clip": "more/uk1914_recruiting_tents",
+   "from_s": 0,
+   "at": 7.6,
+   "len": 3.8,
+   "credit": "London 1914 · CINEMATEK Brussels · public domain",
+   "beat": 34,
+   "from": 15719,
+   "frames": 115,
+   "onKind": "headline",
+   "look": "full"
+  },
+  {
+   "clip": "more/ru1915_erivan_regiment_marches_out",
+   "from_s": 0,
+   "at": 3.54,
+   "len": 4.5,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "beat": 36,
+   "from": 16721,
+   "frames": 135,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/ru1915_russian_pows_march_escort",
+   "from_s": 0,
+   "at": 7.08,
+   "len": 3.3,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "beat": 37,
+   "from": 17180,
+   "frames": 100,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "page": "ludendorff-samsonoff",
+   "beat": 37,
+   "from": 17280,
+   "frames": 176,
+   "onKind": "photo",
+   "look": "page"
+  },
+  {
+   "clip": "people/hindenburg_ludendorff_map_1917",
+   "from_s": 1,
+   "at": 0,
+   "len": 3.5,
+   "credit": "Hindenburg & Ludendorff, HQ 1917 · Bundesarchiv · public domain",
+   "beat": 38,
+   "from": 17456,
+   "frames": 106,
+   "onKind": "map",
+   "look": "full",
+   "label": "Hindenburg & Ludendorff",
+   "labelSub": "1917"
+  },
+  {
+   "clip": "more/ah1915_columns_march_przemysl_street",
+   "from_s": 0,
+   "at": 9.36,
+   "len": 5.2,
+   "credit": "Przemyśl 1915 · Austrian Film Museum · public domain",
+   "beat": 38,
+   "from": 17737,
+   "frames": 157,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "photo": "photos/en/d_german_austrian_galicia_1914.jpg",
+   "move": "in",
+   "at": 11.72,
+   "len": 6,
+   "credit": "Alfred Grohs, Galicia 1914 · public domain",
+   "beat": 39,
+   "from": 18464,
+   "frames": 198,
+   "onKind": "map",
+   "look": "print"
+  },
+  {
+   "clip": "people/enver_parade_1915",
+   "from_s": 1,
+   "at": 0,
+   "len": 3.7,
+   "credit": "Enver Pasha, Constantinople 1915 · Bundesarchiv · public domain",
+   "beat": 40,
+   "from": 18869,
+   "frames": 112,
+   "onKind": "map",
+   "look": "full",
+   "label": "Enver Pasha",
+   "labelSub": "1915"
+  },
+  {
+   "clip": "en/ottoman_troops",
+   "from_s": 3,
+   "at": 8,
+   "len": 5.1,
+   "credit": "archival film · public domain",
+   "beat": 42,
+   "from": 19944,
+   "frames": 154,
+   "onKind": "people",
+   "look": "full"
+  },
+  {
+   "clip": "en/kaiser_dardanelles",
+   "from_s": 1.5,
+   "at": 9.6,
+   "len": 5,
+   "credit": "archival film · public domain",
+   "beat": 43,
+   "from": 20610,
+   "frames": 165,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "people/joffre_parade_alsace_1915",
+   "from_s": 1,
+   "at": 10.68,
+   "len": 5.1,
+   "credit": "Joffre, Alsace 1915 · DFF Deutsches Filminstitut · public domain",
+   "beat": 45,
+   "from": 21777,
+   "frames": 153,
+   "onKind": "map",
+   "look": "window",
+   "label": "Joffre",
+   "labelSub": "1915"
+  },
+  {
+   "clip": "more/ah1915_mortar_ready_to_fire",
+   "from_s": 0,
+   "at": 0,
+   "len": 5.6,
+   "credit": "Przemyśl 1915 · Austrian Film Museum · public domain",
+   "beat": 46,
+   "from": 22169,
+   "frames": 168,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "more/ru1915_fort_rampart_ammo_strewn",
+   "from_s": 0,
+   "at": 5.6,
+   "len": 3.1,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "beat": 46,
+   "from": 22337,
+   "frames": 93,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "page": "ludendorff-novo-georgievsk",
+   "beat": 46,
+   "from": 22430,
+   "frames": 138,
+   "onKind": "map",
+   "look": "page"
+  },
+  {
+   "clip": "more/de1915_traffic_marschall_bridge_warsaw",
+   "from_s": 1,
+   "at": 13.3,
+   "len": 2.1,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "burst": true,
+   "beat": 46,
+   "from": 22568,
+   "frames": 63,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1915_vilnius_cathedral",
+   "from_s": 0,
+   "at": 15.4,
+   "len": 2.1,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "burst": true,
+   "beat": 46,
+   "from": 22631,
+   "frames": 63,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/pl1915_refugee_wagon_camp",
+   "from_s": 1,
+   "at": 17.5,
+   "len": 2.2,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "burst": true,
+   "beat": 46,
+   "from": 22694,
+   "frames": 65,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/ah1915_belgrade_kalemegdan_ruins",
+   "from_s": 0,
+   "at": 0,
+   "len": 4.6,
+   "credit": "Messter-Woche 1915 · Bundesarchiv · public domain",
+   "beat": 47,
+   "from": 22819,
+   "frames": 139,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "photo": "photos/en/g_balkanzug_1916_rol.jpg",
+   "move": "left",
+   "at": 4.64,
+   "len": 7.9,
+   "credit": "Balkanzug, 1916 · Agence Rol / BnF · public domain",
+   "beat": 47,
+   "from": 22958,
+   "frames": 235,
+   "onKind": "map",
+   "look": "print"
+  },
+  {
+   "page": "nyt-lusitania",
+   "beat": 48,
+   "from": 23522,
+   "frames": 304,
+   "onKind": "film",
+   "look": "page"
+  },
+  {
+   "clip": "people/wilson_speech_1917",
+   "from_s": 0.4,
+   "at": 14.34,
+   "len": 5.6,
+   "credit": "Woodrow Wilson, 1917 · National Archives · public domain",
+   "beat": 48,
+   "from": 23826,
+   "frames": 175,
+   "onKind": "film",
+   "look": "full",
+   "label": "Woodrow Wilson",
+   "labelSub": "1917"
+  },
+  {
+   "clip": "more/de1915_uboat_casts_off",
+   "from_s": 0,
+   "at": 4,
+   "len": 4,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 49,
+   "from": 24206,
+   "frames": 121,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "people/poincare_joffre_verdun_1916",
+   "from_s": 0,
+   "at": 0,
+   "len": 8.48,
+   "credit": "Poincaré & Joffre, Verdun 1916 · DFF Deutsches Filminstitut · public domain",
+   "rate": 0.98,
+   "beat": 50,
+   "from": 24627,
+   "frames": 254,
+   "onKind": "photo",
+   "look": "full",
+   "label": "Poincaré & Joffre",
+   "labelSub": "1916"
+  },
+  {
+   "clip": "more/uk1914_british_troops_cairo_sultan",
+   "from_s": 0,
+   "at": 11.5,
+   "len": 4.7,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 51,
+   "from": 25469,
+   "frames": 142,
+   "onKind": "film",
+   "look": "full"
+  },
+  {
+   "clip": "en/british_guns",
+   "from_s": 0.5,
+   "at": 16.22,
+   "len": 9,
+   "credit": "archival film · public domain",
+   "beat": 51,
+   "from": 25611,
+   "frames": 269,
+   "onKind": "film",
+   "look": "full"
+  },
+  {
+   "clip": "more/au1915_anzac_soldiers_laughing",
+   "from_s": 0,
+   "at": 25.2,
+   "len": 7.2,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 51,
+   "from": 25880,
+   "frames": 216,
+   "onKind": "film",
+   "look": "full"
+  },
+  {
+   "clip": "s_blast",
+   "from_s": 3,
+   "at": 0,
+   "len": 4.6,
+   "credit": "archival film · public domain",
+   "beat": 52,
+   "from": 26164,
+   "frames": 139,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "tanks",
+   "from_s": 2,
+   "at": 11.24,
+   "len": 5,
+   "credit": "archival film · public domain",
+   "beat": 52,
+   "from": 26501,
+   "frames": 142,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/ah1917_troops_march_through_crowd_czernowitz",
+   "from_s": 0,
+   "at": 0,
+   "len": 5.4,
+   "credit": "Liberation of Bukovina 1917 · Bundesarchiv · public domain",
+   "beat": 53,
+   "from": 26966,
+   "frames": 163,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "en/riga_1917",
+   "from_s": 4,
+   "at": 6.86,
+   "len": 4.3,
+   "credit": "archival film · public domain",
+   "beat": 53,
+   "from": 27172,
+   "frames": 131,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1915_forage_wagons_front",
+   "from_s": 0,
+   "at": 7.26,
+   "len": 6.3,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 55,
+   "from": 27877,
+   "frames": 191,
+   "onKind": "bars",
+   "look": "full"
+  },
+  {
+   "clip": "more/uk1914_crowd_outside_bank",
+   "from_s": 0,
+   "at": 0,
+   "len": 3.3,
+   "credit": "London 1914 · CINEMATEK Brussels · public domain",
+   "beat": 56,
+   "from": 28178,
+   "frames": 98,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "s_howitzer2",
+   "from_s": 3,
+   "at": 3.28,
+   "len": 7.3,
+   "credit": "archival film · public domain",
+   "beat": 56,
+   "from": 28276,
+   "frames": 219,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "en/wilson",
+   "from_s": 2,
+   "at": 18.64,
+   "len": 7.9,
+   "credit": "archival film · public domain",
+   "beat": 56,
+   "from": 28737,
+   "frames": 237,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "petrograd",
+   "from_s": 3,
+   "at": 11.2,
+   "len": 5.5,
+   "credit": "archival film · public domain",
+   "beat": 57,
+   "from": 29424,
+   "frames": 164,
+   "onKind": "film",
+   "look": "full"
+  },
+  {
+   "clip": "people/lenin_car_moscow_1918",
+   "from_s": 0.3,
+   "at": 0,
+   "len": 5.1,
+   "credit": "Lenin, Moscow May 1918 · Austrian Film Museum · public domain",
+   "beat": 58,
+   "from": 29648,
+   "frames": 152,
+   "onKind": "map",
+   "look": "full",
+   "label": "Lenin",
+   "labelSub": "1918"
+  },
+  {
+   "clip": "more/brest1917_delegation_arrives_train",
+   "from_s": 0,
+   "at": 14.02,
+   "len": 3.5,
+   "credit": "archival film, 1917–18 · Bundesarchiv · public domain",
+   "beat": 58,
+   "from": 30069,
+   "frames": 105,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/brest1917_armistice_signing_table",
+   "from_s": 1,
+   "at": 1.76,
+   "len": 2.3,
+   "credit": "Brest-Litovsk armistice 1917 · Bundesarchiv · public domain",
+   "burst": true,
+   "beat": 59,
+   "from": 30287,
+   "frames": 69,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1917_reserves_march_boxcars_zlodzow",
+   "from_s": 1,
+   "at": 4.06,
+   "len": 2.2,
+   "credit": "Fighting for Tarnopol 1917 · Bundesarchiv · public domain",
+   "burst": true,
+   "beat": 59,
+   "from": 30356,
+   "frames": 66,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1915_reinforcements_train_lowicz",
+   "from_s": 1,
+   "at": 6.26,
+   "len": 2.2,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "burst": true,
+   "beat": 59,
+   "from": 30422,
+   "frames": 66,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1915_horses_loaded_wagon_lodz",
+   "from_s": 1,
+   "at": 8.46,
+   "len": 2.27,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "burst": true,
+   "beat": 59,
+   "from": 30488,
+   "frames": 68,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "people/broll_remarque_infantry_advance_1918",
+   "from_s": 1,
+   "at": 10.74,
+   "len": 6.3,
+   "credit": "German infantry, Western Front 1918 · Bundesarchiv · public domain",
+   "beat": 59,
+   "from": 30556,
+   "frames": 189,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "more/de1917_hindenburg_ludendorff_walk",
+   "from_s": 0,
+   "at": 0,
+   "len": 3.2,
+   "credit": "Unser Hindenburg · Bundesarchiv · public domain",
+   "beat": 60,
+   "from": 30805,
+   "frames": 95,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "more/brest1918_delegates_leave_building",
+   "from_s": 0,
+   "at": 0,
+   "len": 6.2,
+   "credit": "archival film, 1917–18 · Bundesarchiv · public domain",
+   "beat": 61,
+   "from": 31230,
+   "frames": 187,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "clip": "more/pl1916_legion_infantry_march_warsaw",
+   "from_s": 0,
+   "at": 0,
+   "len": 6.3,
+   "credit": "Warsaw, December 1916 · Bundesarchiv · public domain",
+   "beat": 63,
+   "from": 32230,
+   "frames": 190,
+   "onKind": "people",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1917_kaiser_arrives_zlodzow",
+   "from_s": 0,
+   "at": 12.08,
+   "len": 4.2,
+   "credit": "Fighting for Tarnopol 1917 · Bundesarchiv · public domain",
+   "beat": 63,
+   "from": 32592,
+   "frames": 126,
+   "onKind": "people",
+   "look": "full"
+  },
+  {
+   "clip": "people/foch_joffre_victory_parade_1919",
+   "from_s": 0.5,
+   "at": 5.52,
+   "len": 4.5,
+   "credit": "Joffre and Foch, Paris victory parade 1919 · DFF Deutsches Filminstitut · public domain",
+   "beat": 64,
+   "from": 33097,
+   "frames": 143,
+   "onKind": "map",
+   "look": "window",
+   "label": "Foch & Joffre",
+   "labelSub": "1919"
+  },
+  {
+   "clip": "more/de_kaiser_staff_poplar_road",
+   "from_s": 0,
+   "at": 15.82,
+   "len": 5.9,
+   "credit": "Kaiser with the army · Filmoteca Española · public domain",
+   "beat": 64,
+   "from": 33406,
+   "frames": 177,
+   "onKind": "map",
+   "look": "window"
+  },
+  {
+   "clip": "people/ludendorff_hq_1917",
+   "from_s": 0.5,
+   "at": 2.44,
+   "len": 4.5,
+   "credit": "Ludendorff, Bad Kreuznach 1917 · Bundesarchiv · public domain",
+   "beat": 65,
+   "from": 33716,
+   "frames": 133,
+   "onKind": "bars",
+   "look": "full",
+   "label": "Ludendorff",
+   "labelSub": "1917"
+  },
+  {
+   "page": "extrablatt-friede-ukraine",
+   "beat": 65,
+   "from": 33995,
+   "frames": 222,
+   "onKind": "bars",
+   "look": "page"
+  },
+  {
+   "clip": "people/lenin_kremlin_1918",
+   "from_s": 1.5,
+   "at": 0,
+   "len": 6.6,
+   "credit": "Lenin, Kremlin Oct 1918 · Austrian Film Museum · public domain",
+   "beat": 67,
+   "from": 34700,
+   "frames": 217,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "en/trotsky_1918",
+   "from_s": 1,
+   "at": 19.68,
+   "len": 4.9,
+   "credit": "archival film · public domain",
+   "beat": 67,
+   "from": 35290,
+   "frames": 148,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1915_ranks_present_arms_ludwig",
+   "from_s": 0,
+   "at": 4.8,
+   "len": 3.9,
+   "credit": "Messter-Woche 1915 · Austrian Film Museum · public domain",
+   "beat": 68,
+   "from": 35642,
+   "frames": 117,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "people/broll_tolkien_communication_trench_somme_1916",
+   "from_s": 1,
+   "at": 5.54,
+   "len": 4.8,
+   "credit": "Somme 1916 (The Battle of the Somme) · IWM film via archive.org · public domain",
+   "beat": 69,
+   "from": 36400,
+   "frames": 142,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "s_soldiers",
+   "from_s": 3,
+   "at": 21.48,
+   "len": 5.5,
+   "credit": "archival film · public domain",
+   "beat": 69,
+   "from": 36878,
+   "frames": 159,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "clip": "people/broll_remarque_road_column_1918",
+   "from_s": 1,
+   "at": 14.66,
+   "len": 4.3,
+   "credit": "German column, St Quentin 1918 · Bundesarchiv · public domain",
+   "beat": 70,
+   "from": 37546,
+   "frames": 129,
+   "onKind": "photo",
+   "look": "full"
+  },
+  {
+   "page": "punch-in-flanders-fields",
+   "beat": 71,
+   "from": 37782,
+   "frames": 297,
+   "onKind": "quote",
+   "look": "page"
+  },
+  {
+   "clip": "s_biggun",
+   "from_s": 2,
+   "at": 11.48,
+   "len": 7.8,
+   "credit": "archival film · public domain",
+   "beat": 71,
+   "from": 38079,
+   "frames": 236,
+   "onKind": "quote",
+   "look": "full"
+  },
+  {
+   "clip": "people/broll_mccrae_flanders_ruins",
+   "from_s": 1,
+   "at": 19.34,
+   "len": 5,
+   "credit": "Flanders ruins, Belgian Army film · CINEMATEK Brussels · public domain",
+   "beat": 71,
+   "from": 38315,
+   "frames": 149,
+   "onKind": "quote",
+   "look": "full"
+  },
+  {
+   "clip": "g_prisoners",
+   "from_s": 6,
+   "at": 0,
+   "len": 3.5,
+   "credit": "archival film · public domain",
+   "beat": 72,
+   "from": 38564,
+   "frames": 104,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "photo": "photos/en/j_paris_6feb1934_concorde2.jpg",
+   "move": "in",
+   "focus": [
+    0.22,
+    0.6
+   ],
+   "at": 0,
+   "len": 9.1,
+   "credit": "Place de la Concorde, Paris 1934 · public domain",
+   "beat": 73,
+   "from": 39110,
+   "frames": 272,
+   "onKind": "photo",
+   "look": "print"
+  },
+  {
+   "photo": "photos/en/j_paris_7feb1934_aftermath.jpg",
+   "move": "in",
+   "at": 25.86,
+   "len": 3.8,
+   "credit": "Paris, 7 February 1934 · public domain",
+   "beat": 73,
+   "from": 39886,
+   "frames": 109,
+   "onKind": "photo",
+   "look": "print"
+  },
+  {
+   "clip": "people/petain_loncin_1923",
+   "from_s": 0,
+   "at": 0,
+   "len": 4.3,
+   "credit": "Marshal Petain, Loncin 1923 · CINEMATEK Brussels · public domain",
+   "beat": 74,
+   "from": 40060,
+   "frames": 109,
+   "onKind": "people",
+   "look": "full",
+   "label": "Pétain",
+   "labelSub": "1923"
+  },
+  {
+   "photo": "photos/en/i_de_gaulle_1915.jpg",
+   "move": "in",
+   "focus": [
+    0.5,
+    0.25
+   ],
+   "at": 14.26,
+   "len": 5.5,
+   "credit": "Charles de Gaulle, 1915 · public domain",
+   "beat": 74,
+   "from": 40488,
+   "frames": 159,
+   "onKind": "people",
+   "look": "print"
+  },
+  {
+   "clip": "en/staged_battle",
+   "from_s": 4,
+   "at": 0,
+   "len": 7.5,
+   "credit": "archival film · public domain",
+   "beat": 75,
+   "from": 40714,
+   "frames": 205,
+   "onKind": "people",
+   "look": "full"
+  },
+  {
+   "clip": "people/wilhelm2_karl_station_1917",
+   "from_s": 1,
+   "at": 17.28,
+   "len": 5.6,
+   "credit": "Wilhelm II & Karl I, Venetia 1917 · Bundesarchiv · public domain",
+   "beat": 75,
+   "from": 41232,
+   "frames": 149,
+   "onKind": "people",
+   "look": "full"
+  },
+  {
+   "clip": "en/berlin_crowd",
+   "from_s": 3,
+   "at": 0,
+   "len": 3,
+   "credit": "archival film · public domain",
+   "beat": 76,
+   "from": 41460,
+   "frames": 127,
+   "onKind": "blocs",
+   "look": "full"
+  },
+  {
+   "clip": "more/de1914_soldiers_through_crowd",
+   "from_s": 0,
+   "at": 13,
+   "len": 6.6,
+   "credit": "Wetzlar 1914 · Oskar Barnack / DFF · public domain",
+   "beat": 76,
+   "from": 41850,
+   "frames": 199,
+   "onKind": "blocs",
+   "look": "full"
+  },
+  {
+   "clip": "tanks",
+   "from_s": 5,
+   "at": 19.62,
+   "len": 5.4,
+   "credit": "archival film · public domain",
+   "beat": 76,
+   "from": 42049,
+   "frames": 161,
+   "onKind": "blocs",
+   "look": "full"
+  },
+  {
+   "clip": "more/brest1918_hoffmann_kuhlmann_czernin_group",
+   "from_s": 0,
+   "at": 0,
+   "len": 3.8,
+   "credit": "Brest-Litovsk talks 1918 · Bundesarchiv · public domain",
+   "beat": 77,
+   "from": 42419,
+   "frames": 113,
+   "onKind": "map",
+   "look": "full"
+  },
+  {
+   "page": "hoffmann-thin-air",
+   "beat": 77,
+   "from": 42532,
+   "frames": 140,
+   "onKind": "map",
+   "look": "page"
+  },
+  {
+   "photo": "photos/en/a_moltke_1914_rol.jpg",
+   "move": "in",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "at": 3.6,
+   "len": 6.9,
+   "credit": "Agence Rol / BnF · public domain",
+   "beat": 78,
+   "from": 42929,
+   "frames": 144,
+   "onKind": "quote",
+   "look": "print"
+  },
+  {
+   "clip": "en/brest_talks",
+   "from_s": 0.5,
+   "at": 0,
+   "len": 7,
+   "credit": "archival film · public domain",
+   "beat": 80,
+   "from": 43432,
+   "frames": 211,
+   "onKind": "map",
+   "look": "full"
+  }
+ ],
+ "transitions": [
+  {
+   "beat": 0,
+   "at": 288,
+   "type": "cut"
+  },
+  {
+   "beat": 1,
+   "at": 525,
+   "type": "cut"
+  },
+  {
+   "beat": 2,
+   "at": 840,
+   "type": "flash"
+  },
+  {
+   "beat": 3,
+   "at": 903,
+   "type": "cut"
+  },
+  {
+   "beat": 4,
+   "at": 1362,
+   "type": "cut"
+  },
+  {
+   "beat": 5,
+   "at": 1807,
+   "type": "silence"
+  },
+  {
+   "beat": 6,
+   "at": 2514,
+   "type": "cut"
+  },
+  {
+   "beat": 7,
+   "at": 2907,
+   "type": "cut"
+  },
+  {
+   "beat": 8,
+   "at": 3467,
+   "type": "match"
+  },
+  {
+   "beat": 9,
+   "at": 4146,
+   "type": "cut"
+  },
+  {
+   "beat": 10,
+   "at": 4623,
+   "type": "cut"
+  },
+  {
+   "beat": 11,
+   "at": 5189,
+   "type": "cut"
+  },
+  {
+   "beat": 12,
+   "at": 5993,
+   "type": "cut"
+  },
+  {
+   "beat": 13,
+   "at": 6209,
+   "type": "cut"
+  },
+  {
+   "beat": 14,
+   "at": 6576,
+   "type": "cut"
+  },
+  {
+   "beat": 15,
+   "at": 7200,
+   "type": "cut"
+  },
+  {
+   "beat": 16,
+   "at": 7302,
+   "type": "cut"
+  },
+  {
+   "beat": 17,
+   "at": 7592,
+   "type": "cut"
+  },
+  {
+   "beat": 18,
+   "at": 7889,
+   "type": "cut"
+  },
+  {
+   "beat": 19,
+   "at": 8114,
+   "type": "cut"
+  },
+  {
+   "beat": 20,
+   "at": 8205,
+   "type": "cut"
+  },
+  {
+   "beat": 21,
+   "at": 8850,
+   "type": "cut"
+  },
+  {
+   "beat": 22,
+   "at": 9513,
+   "type": "cut"
+  },
+  {
+   "beat": 23,
+   "at": 9713,
+   "type": "cut"
+  },
+  {
+   "beat": 24,
+   "at": 9959,
+   "type": "cut"
+  },
+  {
+   "beat": 25,
+   "at": 10150,
+   "type": "cut"
+  },
+  {
+   "beat": 26,
+   "at": 10699,
+   "type": "cut"
+  },
+  {
+   "beat": 27,
+   "at": 11548,
+   "type": "silence"
+  },
+  {
+   "beat": 28,
+   "at": 12122,
+   "type": "cut"
+  },
+  {
+   "beat": 29,
+   "at": 12511,
+   "type": "dissolve"
+  },
+  {
+   "beat": 30,
+   "at": 13140,
+   "type": "match"
+  },
+  {
+   "beat": 31,
+   "at": 14205,
+   "type": "match"
+  },
+  {
+   "beat": 32,
+   "at": 14857,
+   "type": "cut"
+  },
+  {
+   "beat": 33,
+   "at": 15039,
+   "type": "match"
+  },
+  {
+   "beat": 34,
+   "at": 15491,
+   "type": "cut"
+  },
+  {
+   "beat": 35,
+   "at": 16158,
+   "type": "cut"
+  },
+  {
+   "beat": 36,
+   "at": 16615,
+   "type": "dissolve"
+  },
+  {
+   "beat": 37,
+   "at": 16968,
+   "type": "cut"
+  },
+  {
+   "beat": 38,
+   "at": 17456,
+   "type": "cut"
+  },
+  {
+   "beat": 39,
+   "at": 18112,
+   "type": "dissolve"
+  },
+  {
+   "beat": 40,
+   "at": 18869,
+   "type": "match"
+  },
+  {
+   "beat": 41,
+   "at": 19321,
+   "type": "cut"
+  },
+  {
+   "beat": 42,
+   "at": 19704,
+   "type": "cut"
+  },
+  {
+   "beat": 43,
+   "at": 20322,
+   "type": "cut"
+  },
+  {
+   "beat": 44,
+   "at": 20915,
+   "type": "cut"
+  },
+  {
+   "beat": 45,
+   "at": 21457,
+   "type": "cut"
+  },
+  {
+   "beat": 46,
+   "at": 22169,
+   "type": "match"
+  },
+  {
+   "beat": 47,
+   "at": 22819,
+   "type": "cut"
+  },
+  {
+   "beat": 48,
+   "at": 23396,
+   "type": "cut"
+  },
+  {
+   "beat": 49,
+   "at": 24086,
+   "type": "cut"
+  },
+  {
+   "beat": 50,
+   "at": 24627,
+   "type": "cut"
+  },
+  {
+   "beat": 51,
+   "at": 25124,
+   "type": "cut"
+  },
+  {
+   "beat": 52,
+   "at": 26164,
+   "type": "cut"
+  },
+  {
+   "beat": 53,
+   "at": 26966,
+   "type": "cut"
+  },
+  {
+   "beat": 54,
+   "at": 27454,
+   "type": "cut"
+  },
+  {
+   "beat": 55,
+   "at": 27659,
+   "type": "cut"
+  },
+  {
+   "beat": 56,
+   "at": 28178,
+   "type": "cut"
+  },
+  {
+   "beat": 57,
+   "at": 29088,
+   "type": "cut"
+  },
+  {
+   "beat": 58,
+   "at": 29648,
+   "type": "cut"
+  },
+  {
+   "beat": 59,
+   "at": 30234,
+   "type": "cut"
+  },
+  {
+   "beat": 60,
+   "at": 30805,
+   "type": "cut"
+  },
+  {
+   "beat": 61,
+   "at": 31230,
+   "type": "cut"
+  },
+  {
+   "beat": 62,
+   "at": 31882,
+   "type": "dissolve"
+  },
+  {
+   "beat": 63,
+   "at": 32230,
+   "type": "cut"
+  },
+  {
+   "beat": 64,
+   "at": 32931,
+   "type": "cut"
+  },
+  {
+   "beat": 65,
+   "at": 33643,
+   "type": "cut"
+  },
+  {
+   "beat": 66,
+   "at": 34443,
+   "type": "whip"
+  },
+  {
+   "beat": 67,
+   "at": 34700,
+   "type": "cut"
+  },
+  {
+   "beat": 68,
+   "at": 35498,
+   "type": "cut"
+  },
+  {
+   "beat": 69,
+   "at": 36234,
+   "type": "cut"
+  },
+  {
+   "beat": 70,
+   "at": 37106,
+   "type": "cut"
+  },
+  {
+   "beat": 71,
+   "at": 37735,
+   "type": "cut"
+  },
+  {
+   "beat": 72,
+   "at": 38564,
+   "type": "silence"
+  },
+  {
+   "beat": 73,
+   "at": 39110,
+   "type": "cut"
+  },
+  {
+   "beat": 74,
+   "at": 40060,
+   "type": "cut"
+  },
+  {
+   "beat": 75,
+   "at": 40714,
+   "type": "cut"
+  },
+  {
+   "beat": 76,
+   "at": 41460,
+   "type": "cut"
+  },
+  {
+   "beat": 77,
+   "at": 42419,
+   "type": "cut"
+  },
+  {
+   "beat": 78,
+   "at": 42822,
+   "type": "cut"
+  },
+  {
+   "beat": 79,
+   "at": 43198,
+   "type": "cut"
+  },
+  {
+   "beat": 80,
+   "at": 43432,
+   "type": "cut"
+  }
+ ],
+ "kinds": [
+  "big",
+  "photo",
+  "quote",
+  "map",
+  "doc",
+  "map",
+  "versus",
+  "map",
+  "map",
+  "doc",
+  "big",
+  "photo",
+  "telegram",
+  "photo",
+  "telegram",
+  "quote",
+  "map",
+  "quote",
+  "photo",
+  "quote",
+  "map",
+  "photo",
+  "map",
+  "telegram",
+  "photo",
+  "doc",
+  "map",
+  "map",
+  "map",
+  "map",
+  "map",
+  "stats",
+  "map",
+  "map",
+  "headline",
+  "map",
+  "map",
+  "photo",
+  "map",
+  "map",
+  "map",
+  "photo",
+  "people",
+  "map",
+  "big",
+  "map",
+  "map",
+  "map",
+  "film",
+  "map",
+  "photo",
+  "film",
+  "map",
+  "map",
+  "big",
+  "bars",
+  "photo",
+  "film",
+  "map",
+  "map",
+  "map",
+  "map",
+  "map",
+  "people",
+  "map",
+  "bars",
+  "big",
+  "photo",
+  "photo",
+  "photo",
+  "photo",
+  "quote",
+  "map",
+  "photo",
+  "people",
+  "people",
+  "blocs",
+  "map",
+  "quote",
+  "big",
+  "map"
+ ],
+ "backdrops": {
+  "2": {
+   "photo": "photos/en/a_kaiser_and_moltke_1914.jpg",
+   "credit": "Wilhelm II and Moltke, 1914 · no known restrictions"
+  },
+  "4": {
+   "photo": "photos/en/a_moltke_1914_rol.jpg",
+   "credit": "Agence Rol / BnF · public domain"
+  },
+  "9": {
+   "photo": "photos/en/a_moltke_1914_rol.jpg",
+   "credit": "Agence Rol / BnF · public domain"
+  },
+  "12": {
+   "photo": "photos/en/b_willy_nicky_kaiser_tsar_bjorko_1905.jpg",
+   "credit": "Wilhelm II and Nicholas II, Björkö 1905 · public domain"
+  },
+  "14": {
+   "photo": "photos/en/a_berlin_extrablatt_1914_barch.jpg",
+   "credit": "Berlin, August 1914 · Bundesarchiv"
+  },
+  "17": {
+   "clip": "artillery",
+   "from_s": 4,
+   "credit": "archival film · public domain"
+  },
+  "19": {
+   "photo": "photos/en/a_kaiser_and_moltke_1914.jpg",
+   "credit": "Wilhelm II and Moltke, 1914 · no known restrictions"
+  },
+  "23": {
+   "photo": "photos/en/b_george_v_nicholas_ii_berlin_1913.jpg",
+   "credit": "Ernest Sandau, Berlin 1913 · public domain"
+  },
+  "25": {
+   "photo": "photos/en/a_troop_train_aug1914_tellgmann.jpg",
+   "credit": "Oscar Tellgmann, August 1914 · public domain"
+  },
+  "34": {
+   "photo": "photos/en/k_daily_telegraph_war_map_1914.jpg",
+   "credit": "The Daily Telegraph war map, London 1914 · public domain"
+  },
+  "42": {
+   "photo": "photos/en/e_churchill_yeomanry_1915.jpg",
+   "credit": "Winston Churchill, 1915 · public domain"
+  },
+  "55": {
+   "photo": "photos/en/a_berlin_extrablatt_1914_barch.jpg",
+   "credit": "Berlin, August 1914 · Bundesarchiv"
+  },
+  "63": {
+   "photo": "photos/en/d_warsaw_german_cavalry_1915.jpg",
+   "credit": "German cavalry in Warsaw, 1915 · public domain"
+  },
+  "65": {
+   "photo": "photos/en/d_brest_litovsk_feb1918.jpg",
+   "credit": "Brest-Litovsk, February 1918 · public domain"
+  },
+  "71": {
+   "photo": "photos/en/g_anzac_landing_1915.jpg",
+   "credit": "State Library of New South Wales · public domain"
+  },
+  "74": {
+   "photo": "photos/en/c_verdun_nivelle_joffre_petain_1916.jpg",
+   "credit": "Nivelle, Joffre and Pétain, 1916 · public domain"
+  },
+  "75": {
+   "photo": "photos/en/a_echternach_german_troops_2aug1914.jpg",
+   "credit": "J.M. Bellwald, 2 August 1914 · public domain"
+  },
+  "76": {
+   "photo": "photos/en/k_daily_telegraph_war_map_1914.jpg",
+   "credit": "The Daily Telegraph war map, London 1914 · public domain"
+  }
+ },
+ "tease": {
+  "frames": 270,
+  "shot": 90,
+  "shots": [
+   {
+    "clip": "en/ruins_1914",
+    "from_s": 3,
+    "text": "Belgium never burns",
+    "credit": "archival film · public domain"
+   },
+   {
+    "clip": "people/lenin_kremlin_1918",
+    "from_s": 1,
+    "text": "Lenin never leaves Zurich",
+    "credit": "Lenin, Moscow 1918 · Austrian Film Museum · public domain"
+   },
+   {
+    "photo": "photos/en/j_paris_6feb1934_concorde.jpg",
+    "text": "France loses the war",
+    "credit": "Paris, 6 February 1934 · public domain"
+   }
+  ]
+ },
+ "keywords": [],
+ "chapters": []
+}

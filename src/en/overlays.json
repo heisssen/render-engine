@@ -1,0 +1,168 @@
+{
+	"_doc": "Graphic layers over the cut, resolved by en/timings.mjs. tease: the flash-forward before 'Berlin, 1 August 1914' (3 shots, one line each, all claims made later in the script). keywords: 2-4 words slammed on screen when the narrator says `word` in beat `beat`; at the story's switch points the keyword names what changed. chapters: corner tag (number + title) from that beat on. keywords are off (documentary bible); the old list is in _keywords_off.",
+	"tease": [
+		{
+			"clip": "en/ruins_1914",
+			"from_s": 3,
+			"text": "Belgium never burns",
+			"credit": "archival film · public domain"
+		},
+		{
+			"clip": "people/lenin_kremlin_1918",
+			"from_s": 1,
+			"text": "Lenin never leaves Zurich",
+			"credit": "Lenin, Moscow 1918 · Austrian Film Museum · public domain"
+		},
+		{
+			"photo": "photos/en/j_paris_6feb1934_concorde.jpg",
+			"text": "France loses the war",
+			"credit": "Paris, 6 February 1934 · public domain"
+		}
+	],
+	"keywords": [],
+	"_keywords_off": [
+		{
+			"beat": 4,
+			"word": "half an hour earlier",
+			"text": "Half an hour."
+		},
+		{
+			"beat": 5,
+			"word": "No Belgium",
+			"text": "No Belgium."
+		},
+		{
+			"beat": 5,
+			"word": "No march",
+			"text": "No march on Paris."
+		},
+		{
+			"beat": 6,
+			"word": "one war plan",
+			"text": "One plan."
+		},
+		{
+			"beat": 27,
+			"word": "turn the trains",
+			"text": "Turn the trains."
+		},
+		{
+			"beat": 41,
+			"word": "no Gallipoli",
+			"text": "No Gallipoli."
+		},
+		{
+			"beat": 49,
+			"word": "docks in Liverpool",
+			"text": "Lusitania docks."
+		},
+		{
+			"beat": 50,
+			"word": "doesn't exist",
+			"text": "No Verdun."
+		},
+		{
+			"beat": 53,
+			"word": "no Brusilov",
+			"text": "No Brusilov."
+		},
+		{
+			"beat": 59,
+			"word": "separate peace",
+			"text": "Separate peace."
+		},
+		{
+			"beat": 67,
+			"word": "sits in Zurich",
+			"text": "Zurich."
+		},
+		{
+			"beat": 72,
+			"word": "France. More",
+			"text": "France."
+		}
+	],
+	"_chapters_off": [
+		{
+			"beat": 6,
+			"title": "One war plan"
+		},
+		{
+			"beat": 11,
+			"title": "Three cousins"
+		},
+		{
+			"beat": 20,
+			"title": "The night of 1 August"
+		},
+		{
+			"beat": 26,
+			"title": "Could the trains turn?"
+		},
+		{
+			"beat": 27,
+			"title": "Our switch"
+		},
+		{
+			"beat": 28,
+			"title": "France attacks alone"
+		},
+		{
+			"beat": 32,
+			"title": "What does Britain do?"
+		},
+		{
+			"beat": 36,
+			"title": "The Eastern Front"
+		},
+		{
+			"beat": 40,
+			"title": "The Ottoman Empire"
+		},
+		{
+			"beat": 45,
+			"title": "1915"
+		},
+		{
+			"beat": 48,
+			"title": "America"
+		},
+		{
+			"beat": 51,
+			"title": "1916"
+		},
+		{
+			"beat": 55,
+			"title": "Bread and banks"
+		},
+		{
+			"beat": 57,
+			"title": "Petrograd"
+		},
+		{
+			"beat": 59,
+			"title": "1917: separate peace"
+		},
+		{
+			"beat": 62,
+			"title": "The map Germany built"
+		},
+		{
+			"beat": 66,
+			"title": "The people"
+		},
+		{
+			"beat": 72,
+			"title": "The twist"
+		},
+		{
+			"beat": 76,
+			"title": "A peaceful century?"
+		},
+		{
+			"beat": 80,
+			"title": "Would Germany have won?"
+		}
+	],
+	"chapters": []
+}

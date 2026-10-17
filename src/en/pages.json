@@ -1,0 +1,23 @@
+{
+	"_doc": "Quoted real pages (public/docs/memoirs/quotes.json) shown while the narrator says the line: {beat: [{page, sent, n}]} - starts on sentence `sent` of the beat, lasts `n` sentences (omit n = to the beat's end). Merged into the inserts by en/timings.mjs; film inserts under a page are trimmed.",
+	"4": [{"page": "moltke-half-hour", "sent": 1, "n": 1}],
+	"9": [{"page": "reichsarchiv-ostaufmarsch-1913", "sent": 2}],
+	"11": [{"page": "nicky-hague", "sent": 3}],
+	"12": [{"page": "willy-unmistakable", "sent": 0}],
+	"13": [{"page": "mobilmachung-extra-1914", "sent": 0, "n": 1}],
+	"14": [{"page": "lichnowsky-neutral", "sent": 1, "n": 1}, {"page": "moltke-joyfully-excited", "sent": 3}],
+	"15": [{"page": "kaiser-whole-army-east", "sent": 0}],
+	"16": [{"page": "moltke-cannot-improvise", "sent": 1}],
+	"17": [{"page": "moltke-wild-heap", "sent": 0}],
+	"19": [{"page": "kaiser-your-uncle", "sent": 0}],
+	"20": [{"page": "moltke-tears", "sent": 3, "n": 1}, {"page": "moltke-refuses-to-sign", "sent": 4}],
+	"21": [{"page": "ulflingen-station", "sent": 1, "n": 1}],
+	"23": [{"page": "george-misunderstanding", "sent": 0}],
+	"24": [{"page": "moltke-now-you-can", "sent": 0}],
+	"37": [{"page": "ludendorff-samsonoff", "sent": 2}],
+	"46": [{"page": "ludendorff-novo-georgievsk", "sent": 2, "n": 1}],
+	"48": [{"page": "nyt-lusitania", "sent": 2, "n": 2}],
+	"65": [{"page": "extrablatt-friede-ukraine", "sent": 2, "n": 1}],
+	"71": [{"page": "punch-in-flanders-fields", "sent": 1, "n": 1}],
+	"77": [{"page": "hoffmann-thin-air", "sent": 2, "n": 2}]
+}

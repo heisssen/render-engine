@@ -1,0 +1,72 @@
+# dependencies, builds, renders
+node_modules/
+out/
+build/
+dist/
+.remotion/
+bundle*/
+
+# secrets: only .env.example is committed
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+client_secret*.json
+token*.json
+credentials*.json
+
+# media: none of it goes in git (see public/README.md)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.ogg
+*.ogv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.f32
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.tif
+*.tiff
+*.jp2
+*.pdf
+*.woff
+*.woff2
+*.ttf
+*.otf
+
+# generated or fetched data
+src/en/geo/world1914.json
+public/fonts/
+public/parallax/
+en/voice/*.mp3
+en/voice/tempo/
+en/voice/placement_*.json
+en/voice_*/
+en/voicetest/
+
+# caches
+__pycache__/
+*.pyc
+.cache/
+whisper/
+.venv/
+venv/
+
+# editor and OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.bak
+*.tmp

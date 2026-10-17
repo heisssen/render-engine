@@ -1,0 +1,30 @@
+{
+  "name": "render-engine",
+  "version": "0.1.0",
+  "description": "Config-driven documentary render engine: Remotion + ElevenLabs + whisper + ffmpeg",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch_fonts.mjs && node scripts/fetch_geo.mjs",
+    "timings": "node en/timings.mjs",
+    "studio": "remotion studio src/en/index.tsx",
+    "bundle": "remotion bundle src/en/index.tsx --out-dir out/bundle",
+    "check": "node scripts/check_imports.mjs && tsc -p ."
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.532",
+    "@remotion/google-fonts": "4.0.532",
+    "@remotion/motion-blur": "4.0.532",
+    "@remotion/three": "^4.0.532",
+    "@types/d3-geo": "^3.1.0",
+    "@types/react": "^19.0.0",
+    "@types/three": "^0.186.0",
+    "d3-geo": "^3.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.532",
+    "three": "^0.186.1",
+    "typescript": "^5.6.0"
+  }
+}

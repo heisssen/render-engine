@@ -1,0 +1,76 @@
+{
+	"2": {
+		"photo": "photos/en/a_kaiser_and_moltke_1914.jpg",
+		"credit": "Wilhelm II and Moltke, 1914 · no known restrictions"
+	},
+	"4": {
+		"photo": "photos/en/a_moltke_1914_rol.jpg",
+		"credit": "Agence Rol / BnF · public domain"
+	},
+	"9": {
+		"photo": "photos/en/a_moltke_1914_rol.jpg",
+		"credit": "Agence Rol / BnF · public domain"
+	},
+	"12": {
+		"photo": "photos/en/b_willy_nicky_kaiser_tsar_bjorko_1905.jpg",
+		"credit": "Wilhelm II and Nicholas II, Björkö 1905 · public domain"
+	},
+	"14": {
+		"photo": "photos/en/a_berlin_extrablatt_1914_barch.jpg",
+		"credit": "Berlin, August 1914 · Bundesarchiv"
+	},
+	"17": {
+		"clip": "artillery",
+		"from_s": 4,
+		"credit": "archival film · public domain"
+	},
+	"19": {
+		"photo": "photos/en/a_kaiser_and_moltke_1914.jpg",
+		"credit": "Wilhelm II and Moltke, 1914 · no known restrictions"
+	},
+	"23": {
+		"photo": "photos/en/b_george_v_nicholas_ii_berlin_1913.jpg",
+		"credit": "Ernest Sandau, Berlin 1913 · public domain"
+	},
+	"25": {
+		"photo": "photos/en/a_troop_train_aug1914_tellgmann.jpg",
+		"credit": "Oscar Tellgmann, August 1914 · public domain"
+	},
+	"34": {
+		"photo": "photos/en/k_daily_telegraph_war_map_1914.jpg",
+		"credit": "The Daily Telegraph war map, London 1914 · public domain"
+	},
+	"42": {
+		"photo": "photos/en/e_churchill_yeomanry_1915.jpg",
+		"credit": "Winston Churchill, 1915 · public domain"
+	},
+	"55": {
+		"photo": "photos/en/a_berlin_extrablatt_1914_barch.jpg",
+		"credit": "Berlin, August 1914 · Bundesarchiv"
+	},
+	"63": {
+		"photo": "photos/en/d_warsaw_german_cavalry_1915.jpg",
+		"credit": "German cavalry in Warsaw, 1915 · public domain"
+	},
+	"65": {
+		"photo": "photos/en/d_brest_litovsk_feb1918.jpg",
+		"credit": "Brest-Litovsk, February 1918 · public domain"
+	},
+	"71": {
+		"photo": "photos/en/g_anzac_landing_1915.jpg",
+		"credit": "State Library of New South Wales · public domain"
+	},
+	"74": {
+		"photo": "photos/en/c_verdun_nivelle_joffre_petain_1916.jpg",
+		"credit": "Nivelle, Joffre and Pétain, 1916 · public domain"
+	},
+	"75": {
+		"photo": "photos/en/a_echternach_german_troops_2aug1914.jpg",
+		"credit": "J.M. Bellwald, 2 August 1914 · public domain"
+	},
+	"76": {
+		"photo": "photos/en/k_daily_telegraph_war_map_1914.jpg",
+		"credit": "The Daily Telegraph war map, London 1914 · public domain"
+	},
+	"_doc": "Backdrops under card beats (telegrams, documents, quotes, charts) that have no bg in story.ts: key = beat index; clip id under public/clips or photo under public/. Resolved by en/timings.mjs."
+}
