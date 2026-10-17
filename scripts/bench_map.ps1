@@ -2,6 +2,7 @@
 # Usage: powershell -File scripts/bench_map.ps1 -Bundle out/bundle [-From 3000] [-To 3059]
 param([string]$Bundle, [int]$From = 3000, [int]$To = 3059, [int]$Concurrency = 4)
 Set-Location (Split-Path $PSScriptRoot)
+New-Item -ItemType Directory -Force out/tmp | Out-Null  # a fresh clone has no out/ yet
 $env:TEMP = (Resolve-Path out).Path + "\tmp"; $env:TMP = $env:TEMP
 $variants = [ordered]@{ 'all-off' = 'clip,coast,rough'; 'clip' = 'coast,rough'; 'clip+coast' = 'rough'; 'all-on' = '' }
 foreach ($name in $variants.Keys) {

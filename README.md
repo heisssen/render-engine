@@ -1,5 +1,8 @@
 # render-engine
 
+[![ci](https://github.com/heisssen/render-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/heisssen/render-engine/actions/workflows/ci.yml)
+[![codeql](https://github.com/heisssen/render-engine/actions/workflows/codeql.yml/badge.svg)](https://github.com/heisssen/render-engine/actions/workflows/codeql.yml)
+
 A config-driven documentary render engine. You write a script; it voices it (ElevenLabs), finds every sentence in
 the audio (whisper), plans the edit from a written editing bible, draws the maps and cards in Remotion, mixes the
 sound, dubs it into other languages, subtitles it, and renders a 25-minute film in one-minute parts that survive a
@@ -7,7 +10,8 @@ dead laptop battery. Then it muxes the picture and the sound with `-c:v copy`, b
 is how you lose an afternoon.
 
 [Українською](README.uk.md) · [Architecture](docs/ARCHITECTURE.md) · [War stories](docs/LESSONS.md) ·
-[Changelog](CHANGELOG.md) · [Contributing](CONTRIBUTING.md)
+[Threat model](docs/threat-model.md) · [Security](SECURITY.md) · [Changelog](CHANGELOG.md) ·
+[Contributing](CONTRIBUTING.md) · [Adopters](ADOPTERS.md)
 
 > **Status: built for one channel, works on Windows, expect rough edges.** This is the engine behind a single
 > 25-minute history episode, extracted and cleaned up so other people can read it, run it and steal from it.
@@ -41,6 +45,8 @@ the trains or don't.
 - **Subtitles.** Plain phrase captions from the known text on whisper timings, spoken years turned back into digits,
   translations through the local Claude CLI in cached batches, dub subtitles timed on the dub itself. Russian is
   refused in code.
+- **Provenance.** `tools/provenance.py` hashes every file the film uses, traces each to its source and licence,
+  writes the credit block, and blocks the render if anything has no usable licence.
 - **Render.** One-minute parts, resumable, with a supervisor that restarts a crashed render and a battery guard that
   freezes the workers at 15% and thaws them at 40%.
 
@@ -62,6 +68,10 @@ the trains or don't.
    parts; a power cut costs at most one minute of work. A supervisor restarts the renderer, a lock stops two from
    running, and a battery guard freezes the render processes before the laptop dies and thaws them once it has
    charged, so the minute in progress survives too.
+5. **A per-asset provenance ledger with a licence gate.** Every clip, photo, page scan, music bed, effect and voice
+   take gets a SHA-256, its place in the film, its source and its licence. Public domain passes; CC BY and BY-SA
+   pass and land in the credits; NC, ND, rights-managed and unknown licences stop the render. One `ledger_root`
+   hash covers the lot, so anyone can check that a published film matches its ledger.
 
 ## The pipeline
 
@@ -83,7 +93,9 @@ flowchart TD
   DB --> AD["out/en/mix_LANG.wav"]
   W --> SUB["subs.py, subs_years.py,<br/>translate_subs.py (Claude CLI), dub_subs.py<br/>never Russian"]
   SUB --> SRT["out/en/subs/*.srt, *.vtt"]
-  R --> RP["scripts/render_en.ps1<br/>1-minute parts, resumable<br/>render_supervisor.ps1 + power_guard.ps1"]
+  TJ --> PV["tools/provenance.py<br/>SHA-256 ledger, licence gate,<br/>credits.txt, ledger_root"]
+  PV -->|"no licence, no render"| RP
+  R --> RP["scripts/render_en.ps1 -Gate<br/>1-minute parts, resumable<br/>render_supervisor.ps1 + power_guard.ps1"]
   RP --> MUX["concat + mux, -c:v copy"]
   A --> MUX
   MUX --> F["out/en/film.mp4"]
@@ -129,16 +141,19 @@ they did in the film: open the `MapStills` composition in Studio for every map b
 | Dub | `py -3.12 en/dub.py uk es fr pt [--no-mix]` | `en/script_LANG.md`, placement | `en/voice_LANG/`, `placement_LANG.json`, `out/en/mix_LANG.wav`, `audio_LANG.m4a` |
 | Dub subtitles | `py -3.12 en/dub_subs.py uk es fr pt` | dub placement and takes | `out/en/subs/dub/LANG.srt/.vtt` |
 | Re-encode clips | `py -3.12 scripts/reencode_clips.py` | `public/clips/**/*.mp4` | same files, 30 fps, `-g 30 -bf 0` |
+| Provenance gate | `py -3.12 tools/provenance.py [--strict] [--sources S.json] [--no-hash] [--report-only]` | timings, story, quotes, people, sidecars, media files | `out/provenance/en/ledger.jsonl`, `ledger.md`, `credits.txt`, `summary.json`; exit 1 if blocked |
+| Tests | `py -3.12 -m unittest discover tests` | tiny fixtures | nothing, ideally |
+| Reach snapshot | `py -3.12 scripts/evidence_snapshot.py` | GitHub API via `gh` | `evidence/YYYY-MM-DD.json` |
 | Parallax (optional) | `%DEPTHFLOW_PYTHON% en\parallax.py IMAGE` | a real photo or painting | `public/parallax/NAME.mp4` |
 | Studio | `npm run studio` | everything | nothing, it just looks nice |
-| Full render | `powershell -File scripts/render_en.ps1 [-Concurrency 4] [-Bundle out/bundle] [-Out out/en/film.mp4]` | bundle, timings, mix | `out/en/parts/partNN.mp4`, the film |
+| Full render | `powershell -File scripts/render_en.ps1 [-Gate] [-Concurrency 4] [-Bundle out/bundle] [-Out out/en/film.mp4]` | bundle, timings, mix | `out/en/parts/partNN.mp4`, the film |
 | Keep it alive | `powershell -File scripts/render_supervisor.ps1` | `out/en/render.log` | restarts, `out/tmp/supervisor.log` |
 | Battery guard | `powershell -File scripts/power_guard.ps1` | battery WMI | `out/tmp/power.log` |
 | Preview | `powershell -File scripts/preview_en.ps1 -Bundle out/bundle -From 0 -To 2399` | bundle, mix | `out/en/preview.mp4` |
 | Map speed A/B | `powershell -File scripts/bench_map.ps1 -Bundle out/bundle` | bundle | seconds per frame per switch |
 
 The usual loop after a script change: `voice.py` → `timings.mjs` → `subs.py` → `sentences.py` → `timings.mjs` →
-`mix.py` → render. Yes, timings runs twice: the first pass places the takes so whisper knows where they are, the
+`mix.py` → `provenance.py` → render. Yes, timings runs twice: the first pass places the takes so whisper knows where they are, the
 second snaps the cuts to the sentences whisper found.
 
 ## Where things live
@@ -220,8 +235,44 @@ tracker. The script that made EP01's is not in this repo; librosa's `beat_track`
 6. Run timings, subs, sentences, timings. Read the pace report. Fix the beats it names (add inserts) and run it again.
 7. Episode knobs that still live in code: `SPECIAL` transitions (beat index to `flash`/`whip`/`silence`) and the
    music bed names in `en/timings.mjs` and `en/mix.py`, the `SHORT` name map in `timings.mjs`, `actDates` in `story.ts`.
-8. Mix, preview a few minutes with `preview_en.ps1`, watch it with the sound on, then render the whole thing.
+8. Mix, preview a few minutes with `preview_en.ps1`, watch it with the sound on, then run the provenance gate until
+   nothing is blocked, and render the whole thing with `-Gate`.
 9. Subtitles and dubs last, when the picture is locked.
+
+## Provenance: no licence, no render
+
+`tools/provenance.py` reads the episode files (`timings.json` inserts, backdrops and tease, `story.ts` photos and
+films, quoted pages, the voice manifest, `public/music`, `public/sfx`, the map textures) and writes one record per
+file into `out/provenance/<lang>/ledger.jsonl`:
+
+```json
+{"id": "clips/en/lusitania_departs.mp4", "kind": "film", "sha256": "…", "used_at": ["story beat"],
+ "license": "Public domain (NARA)", "origin": {"source_page": "https://…", "record": "…"},
+ "status": "ok", "attribution": "", "issues": []}
+```
+
+Licences come from, in order: a lineage sidecar next to the file (`<file>.source.json`), any `--sources` file you
+pass (JSON or CSV with `id, license, source_page, author, title, attribution`), `people.json` and `quotes.json`,
+and finally the on-screen credit, which is accepted with a warning and blocked under `--strict`.
+
+| status | licences | effect |
+|---|---|---|
+| ok | public domain, Public Domain Mark, CC0, no known copyright restrictions, own work | passes |
+| attribution | CC BY, CC BY-SA | passes; its line goes into `credits.txt` |
+| blocked | NC, ND, all rights reserved, rights-managed archives, no licence, anything else, missing file | exit 1 |
+
+`summary.json` carries `ledger_root`, a SHA-256 over the sorted records: change one byte of one clip, or one
+licence line, and it changes. `render_en.ps1 -Gate` runs the gate before rendering, which also means before the
+mux. The threat model behind it is in [docs/threat-model.md](docs/threat-model.md).
+
+## Roadmap
+
+- **C2PA Content Credentials** (planned): sign the final mp4 with a C2PA manifest that embeds `ledger_root`, the
+  archival ingredients and an AI-narration assertion, verifiable with `c2patool`.
+- **Lineage sidecars for cut clips** (planned): the clip cutter writes `<clip>.source.json` (source file and its
+  SHA-256, start and end timecode, licence), and the gate rejects a cut without one.
+- **Episode knobs out of code** (planned): transition specials, music beds and name labels into episode data.
+- **macOS and Linux render scripts** (help wanted).
 
 ## Hard-won lessons
 
@@ -262,7 +313,7 @@ bibles, and the first episode it was built for.
 If you use the engine or its ideas in research or in another project, please cite it. The citation metadata is in
 [CITATION.cff](CITATION.cff); GitHub's "Cite this repository" button reads it.
 
-> Oximets, B. (2026). *render-engine* (Version 0.1.0) [Computer software]. https://github.com/heisssen/render-engine
+> Oximets, B. (2026). *render-engine* (Version 0.2.0) [Computer software]. https://github.com/heisssen/render-engine
 
 ## Licence and credits
 

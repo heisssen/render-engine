@@ -8,7 +8,7 @@ A config-driven documentary render engine: **Remotion + ElevenLabs + whisper + f
 into a finished 25-minute documentary with animated maps, archival footage, quoted pages, a mixed soundtrack, dubs
 and subtitles, and renders it in a way that survives the laptop running out of battery.
 
-[Source on GitHub](https://github.com/heisssen/render-engine) · MIT licence · v0.1.0 · by Bohdan Oximets
+[Source on GitHub](https://github.com/heisssen/render-engine) · MIT licence · v0.2.0 · by Bohdan Oximets
 (heisssen) · built for one channel, works on Windows, expect rough edges.
 
 ## The idea in one paragraph
@@ -30,11 +30,15 @@ fitted into the same slots.
 4. **Resumable minute-part rendering with a power and battery guard.** A crash or a dead battery costs at most one
    minute of rendering; a supervisor restarts the job and a guard freezes it before the battery dies.
 
+5. **A per-asset provenance ledger with a licence gate.** Every file gets a SHA-256, a source and a licence;
+   unusable licences stop the render, and one `ledger_root` hash lets anyone check a published film against it.
+
 ## Read next
 
 - [README](https://github.com/heisssen/render-engine#readme): pipeline diagram, quickstart, command reference, data formats
 - [Architecture](ARCHITECTURE.md): how a frame is composed, the timing model, the audio model
 - [Lessons](LESSONS.md): what went wrong in October 2026 and what the code does about it
+- [Threat model](threat-model.md): assets, trust boundaries, threats and mitigations
 - The bibles: [documentary editing](bibles/documentary-editing-bible.md), [edit](bibles/edit-bible.md),
   [motion](bibles/motion-system.md), [writing](bibles/writing-bible.md)
 - [Changelog](https://github.com/heisssen/render-engine/blob/main/CHANGELOG.md)

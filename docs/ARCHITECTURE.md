@@ -22,6 +22,7 @@ Three ideas hold the engine together:
 | `en/mix.py` | voice placement, breaths, voice chain, beds, ducking, synthesized and sampled SFX, loudness |
 | `en/dub.py`, `en/dub_subs.py` | dubbing into the English slots, subtitles timed on the dub |
 | `en/translate_subs.py`, `en/subs_years.py` | translation through the Claude CLI, years back to digits |
+| `tools/provenance.py` | per-asset SHA-256 ledger, licence gate, credits, `ledger_root` |
 | `en/terrain.py`, `en/bake_relief.py` | map relief from elevation tiles, baked into one overlay |
 | `src/en/index.tsx` | registers the compositions: `MainEN`, `IdentPreview`, `MapStills`, `MapSamples`, stills |
 | `src/en/Main.tsx` | the film: resolves beats, lays sequences, overlays, sting, act breaks, end screen |

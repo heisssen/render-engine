@@ -3,6 +3,27 @@
 All dates are 2026. The history before v0.1.0 is reconstructed from the production notes and file dates of the
 first episode; it happened in one folder on one laptop, so "release" is a generous word for most of it.
 
+## [0.2.0] - 2026-10-17
+
+Provenance and security: the part that answers "where did this frame come from, and are we allowed to use it".
+
+### Added
+- `tools/provenance.py`: per-asset SHA-256 ledger of every file a render uses (clips, photos, page scans, backdrops,
+  music, effects, voice takes, map textures), a licence gate (PD, PDM, CC0 pass; CC BY and BY-SA pass with an
+  attribution line; NC, ND, rights-managed, unknown and missing files are blocked), `ledger_root`, `credits.txt`,
+  `ledger.md`. Reads lineage sidecars (`<file>.source.json`), `--sources` JSON/CSV, `people.json`, `quotes.json`.
+- `render_en.ps1 -Gate`: runs the gate before rendering and stops on a blocked asset. No licence, no render.
+- `tests/test_provenance.py`: unit tests on a tiny fake project.
+- CI (`.github/workflows/ci.yml`): Python compile and unit tests, Node syntax and import checks, gitleaks over the full
+  history; CodeQL for Python and JavaScript/TypeScript (`codeql.yml`).
+- `docs/threat-model.md`, `SECURITY.md` (private vulnerability reporting), `ADOPTERS.md`, a roadmap (C2PA Content
+  Credentials with `ledger_root`, lineage sidecars for cut clips).
+- `scripts/evidence_snapshot.py`: dated snapshot of repository traffic, stars, forks and release downloads into
+  `evidence/` (gitignored).
+
+### Fixed
+- The PowerShell scripts create `out/` before resolving it, so they run on a fresh clone.
+
 ## [0.1.0] - 2026-10-17
 
 First public release: the engine extracted from the EP01 production as a standalone repo.

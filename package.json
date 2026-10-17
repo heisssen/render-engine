@@ -1,6 +1,6 @@
 {
   "name": "render-engine",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Config-driven documentary render engine: Remotion + ElevenLabs + whisper + ffmpeg",
   "license": "MIT",
   "private": true,

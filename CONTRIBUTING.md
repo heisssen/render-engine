@@ -24,11 +24,16 @@ would not put them. Issues and pull requests are welcome all the same.
 
 ```powershell
 node scripts/check_imports.mjs
-py -3.12 -m py_compile en/*.py scripts/*.py
+py -3.12 -m py_compile en/*.py scripts/*.py tools/*.py
+py -3.12 -m unittest discover tests
 npx tsc -p .
 ```
 
 Never commit media, renders, `.env`, API keys, voice IDs of real people, or absolute paths from your machine. The
-`.gitignore` catches most of it; your own eyes catch the rest.
+`.gitignore` catches most of it, gitleaks in CI catches keys, and a quick search catches the rest:
+
+```bash
+git grep -nIiE 'api[_-]?key|token|password|Bearer|BEGIN [A-Z ]*PRIVATE KEY|[A-Z]:\\\\|/Users/|/home/|@gmail' -- ':!package-lock.json'
+```
 
 By contributing you agree that your contribution is licensed under the MIT licence of this repository.

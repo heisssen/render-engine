@@ -70,3 +70,6 @@ Desktop.ini
 .DS_Store
 *.bak
 *.tmp
+
+# local evidence snapshots (scripts/evidence_snapshot.py)
+evidence/

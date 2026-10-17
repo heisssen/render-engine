@@ -2,6 +2,7 @@
 # Usage: powershell -File scripts/preview_en.ps1 -Bundle out/bundle -From 0 -To 2399 [-Out out/en/preview.mp4]
 param([string]$Bundle, [int]$From = 0, [int]$To = 2399, [string]$Out = "out/en/preview.mp4", [int]$Concurrency = 4)
 Set-Location (Split-Path $PSScriptRoot)
+New-Item -ItemType Directory -Force out/tmp | Out-Null  # a fresh clone has no out/ yet
 $env:TEMP = (Resolve-Path out).Path + "\tmp"; $env:TMP = $env:TEMP
 "render $From-$To  $(Get-Date -Format HH:mm)"
 if (Test-Path out/en/preview_video.mp4) { Move-Item -Force out/en/preview_video.mp4 out/tmp/preview_video_old.mp4 }  # never mux a stale video

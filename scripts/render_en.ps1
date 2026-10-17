@@ -1,8 +1,10 @@
 # EN cut (MainEN) render in resumable 1-minute parts, then concat + mux the mix with -c:v copy (no grain).
 # Re-run to continue: finished parts are skipped. ASCII only (PowerShell 5.1).
-# Usage: powershell -File scripts/render_en.ps1 [-Concurrency 4] [-Bundle out/bundle2] [-Out out/en/film.mp4]
-param([int]$Concurrency = 3, [int]$PartFrames = 1800, [string]$Bundle = "out/bundle", [string]$Out = "out/en/film.mp4")  # 1-minute parts: a power cut loses at most one
+# Usage: powershell -File scripts/render_en.ps1 [-Concurrency 4] [-Bundle out/bundle2] [-Out out/en/film.mp4] [-Gate]
+# -Gate: run the provenance ledger and licence gate (tools/provenance.py) first: no licence, no render.
+param([int]$Concurrency = 3, [int]$PartFrames = 1800, [string]$Bundle = "out/bundle", [string]$Out = "out/en/film.mp4", [switch]$Gate)  # 1-minute parts: a power cut loses at most one
 Set-Location (Split-Path $PSScriptRoot)
+New-Item -ItemType Directory -Force out/tmp | Out-Null  # a fresh clone has no out/ yet
 $env:TEMP = (Resolve-Path out).Path + "\tmp"; $env:TMP = $env:TEMP
 New-Item -ItemType Directory -Force $env:TEMP, out/en/parts | Out-Null
 # one renderer at a time: a second call while one runs just exits
@@ -16,6 +18,10 @@ Add-Type -Namespace Win -Name Power -MemberDefinition '[DllImport("kernel32.dll"
 $ES_CONTINUOUS = [uint32]"0x80000000"; $ES_SYSTEM_REQUIRED = [uint32]"0x00000001"
 [Win.Power]::SetThreadExecutionState($ES_CONTINUOUS -bor $ES_SYSTEM_REQUIRED) | Out-Null
 try {
+	if ($Gate) {
+		py -3.12 tools/provenance.py --project . --lang en
+		if ($LASTEXITCODE -ne 0) { "PROVENANCE GATE: blocked assets, see out/provenance/en/ledger.md"; exit 1 }
+	}
 	$total = (Get-Content src/en/timings.json -Raw | ConvertFrom-Json).total
 	# bundle once; a resume reuses it (deleting an old bundle can hang on Windows file locks).
 	# After code changes, bundle into a NEW folder name instead of deleting this one.
