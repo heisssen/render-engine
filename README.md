@@ -1,5 +1,9 @@
 # render-engine
 
+**Claude Code editing workflow:** run `/montage <desired edit>` in this repository.
+Project agents route discovery to Haiku, implementation to Sonnet, and difficult decisions to Opus.
+See [the workflow guide](docs/AGENT_WORKFLOW.md) and [project instructions](CLAUDE.md).
+
 [![ci](https://github.com/heisssen/render-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/heisssen/render-engine/actions/workflows/ci.yml)
 [![codeql](https://github.com/heisssen/render-engine/actions/workflows/codeql.yml/badge.svg)](https://github.com/heisssen/render-engine/actions/workflows/codeql.yml)
 

@@ -6,8 +6,8 @@
 
 Output: out/en/subs/<lang>.srt + .vtt with exactly the EN cue count and timings.
 Translator = the local Claude Code CLI (headless: no tools, no MCP, no session files), batches of ~40 cues as JSON
-{id: text}; every batch is cached in out/en/subs/cache/ (keyed by language + source text), so re-runs only pay for
-changed cues. NEVER Russian: 'ru' is refused in code.
+{id: text}; every batch is cached in out/en/subs/cache/ (keyed by model, prompt, source and context), so identical
+requests reuse translations. NEVER Russian: 'ru' is refused in code.
 """
 from __future__ import annotations
 
@@ -19,6 +19,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -120,28 +121,41 @@ def system_prompt(lang: str) -> str:
 
 def translate_batch(lang: str, model: str, batch: list[dict], before: list[dict]) -> dict[str, str]:
     src = {str(c["id"]): c["text"].replace("\n", " ") for c in batch}
-    key = hashlib.md5(json.dumps([lang, src], ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:14]
-    cf = CACHE / f"{lang}_{key}.json"
-    if cf.exists():
-        return json.loads(cf.read_text(encoding="utf-8"))
+    system = system_prompt(lang)
     mx = LINE_MAX.get(lang, MAX_LINE)
     ctx = ""
     if before:
         ctx = "Previous cues, for context only (do NOT translate): " + json.dumps(
             {str(c["id"]): c["text"].replace("\n", " ") for c in before}, ensure_ascii=False) + "\n\n"
+    # Include every translation input: model/style/context changes must not reuse old output.
+    key = hashlib.sha256(json.dumps(
+        [1, lang, model, system, ctx, src], ensure_ascii=False, sort_keys=True
+    ).encode("utf-8")).hexdigest()
+    cf = CACHE / f"{lang}_{key}.json"
+    if cf.exists():
+        try:
+            cached = json.loads(cf.read_text(encoding="utf-8"))
+            if (isinstance(cached, dict) and cached.keys() == src.keys()
+                    and all(isinstance(t, str) and t.strip() for t in cached.values())):
+                return cached
+        except (ValueError, UnicodeError):
+            pass  # Interrupted/invalid legacy writes are a cache miss, never a broken release.
     out: dict[str, str] = {}
     todo = dict(src)
     note = ""
     for attempt in range(4):
         user = ctx + note + "Translate these cues:\n" + json.dumps(todo, ensure_ascii=False, indent=0)
         try:
-            data = parse_json(ask(model, system_prompt(lang), user))
+            data = parse_json(ask(model, system, user))
+            if not isinstance(data, dict):
+                raise ValueError("translator response must be a JSON object")
         except Exception as e:  # noqa: BLE001
             print(f"  [{lang}] batch retry ({e})", file=sys.stderr)
             continue
         bad = {}
         for k in todo:
-            t = str(data.get(k, "")).strip()
+            value = data.get(k)
+            t = value.strip() if isinstance(value, str) else ""
             if not t:
                 bad[k] = "missing"
             elif wrap_text(t, lang) is None:
@@ -159,7 +173,17 @@ def translate_batch(lang: str, model: str, batch: list[dict], before: list[dict]
         if k not in out:
             raise RuntimeError(f"[{lang}] no translation for cue {k}")
     CACHE.mkdir(parents=True, exist_ok=True)
-    cf.write_text(json.dumps(out, ensure_ascii=False, indent=0), encoding="utf-8")
+    # A stopped process must not replace a reusable cache entry with partial JSON.
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=CACHE,
+                                         prefix=f".{lang}_", suffix=".tmp", delete=False) as f:
+            temporary = Path(f.name)
+            json.dump(out, f, ensure_ascii=False, indent=0)
+        temporary.replace(cf)
+    finally:
+        if temporary is not None:
+            temporary.unlink(missing_ok=True)
     return out
 
 

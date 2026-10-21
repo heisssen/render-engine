@@ -18,7 +18,7 @@ jobs:
           python-version: "3.12"
       - name: Compile every Python file
         run: python -m py_compile en/*.py scripts/*.py tools/*.py tests/*.py
-      - name: Unit tests (provenance ledger and licence gate)
+      - name: Unit tests (preflight, translation cache and provenance)
         run: python -m unittest discover tests -v
 
   node:
